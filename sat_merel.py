@@ -53,7 +53,8 @@ def check_unit_clause(cnf,dict_values):
 	return(cnf, dict_values)
 
 def check_tautology(cnf):
-	for clause in cnf:
+	cnf2=copy.deepcopy(cnf)
+	for clause in cnf2:
 		for i in clause:
 			for j in clause:
 				if i==-j:
@@ -73,7 +74,8 @@ def remove_true_clauses(cnf,dict_values):
 	return cnf
 
 def remove_false_elements(cnf,dict_values):
-	for clause in cnf:
+	cnf2=copy.deepcopy(cnf)
+	for clause in cnf2:
 		clause_index=cnf.index(clause)
 		for i in clause:
 			if i in dict_values and dict_values[i]==0:
@@ -107,9 +109,28 @@ def random_fill(cnf, dict_values,list_random_filled):
 		list_random_filled.append(element)
 	return(dict_values, list_random_filled)
 
-def dpll(cnf, dict_values,list_random_filled):
-	pass
-
+'''def dpll(cnf, dict_values,list_random_filled):
+	cnf_copy=copy.deepcopy(cnf)
+	cnf_copy2=copy.deepcopy(cnf)
+	dict_values, list_random_filled=random_fill(cnf, dict_values,list_random_filled)
+	cnf_copy=remove_false_elements(cnf_copy,dict_values)
+	cnf_copy=remove_true_clauses(cnf_copy, dict_values)
+	if check_if_backtracking_needed:
+		dict_values[list_random_filled[-1]]=0
+		dict_values[-list_random_filled[-1]]=0
+		cnf_copy2=remove_false_elements(cnf_copy2,dict_values)
+		cnf_copy2=remove_true_clauses(cnf_copy2, dict_values)
+'''
+def simplefy(cnf, dict_values):
+	count=0
+	previous_count=None
+	while count != previous_count:
+		previous_count=count
+		cnf=remove_false_elements(cnf,dict_values)
+		cnf=remove_true_clauses(cnf, dict_values)
+		cnf, dict_values=check_unit_clause(cnf, dict_values)
+		count=len(cnf)
+	return cnf, dict_values
 
 
 
@@ -119,27 +140,15 @@ if __name__== "__main__":
 	cnf, maxvar=read_dimac("sudoku-rules.txt")
 	add_puzzle("sudoku-example.txt", cnf)
 	cnf=check_tautology(cnf)
-	count=0
-	previous_count=0
-	cnf=remove_false_elements(cnf,dict_values)
-	cnf=remove_true_clauses(cnf, dict_values)
+	print(len(cnf))
+	cnf, dict_values=simplefy(cnf,dict_values)
 	if check_if_backtracking_needed(cnf):
 		print('UNSAT')
-		
 	while cnf!=[]:
-		cnf=remove_false_elements(cnf,dict_values)
-		cnf=remove_true_clauses(cnf, dict_values)
-		cnf, dict_values=check_unit_clause(cnf, dict_values)
-		cnf=remove_false_elements(cnf,dict_values)
-		cnf=remove_true_clauses(cnf, dict_values)
-		count=correct_value_counter(dict_values)
-		check_if_backtracking_needed(cnf)
-		if previous_count==count:
-			dict_values, list_random_filled=random_fill(cnf, dict_values,list_random_filled)
+		dict_values, list_random_filled=random_fill(cnf, dict_values,list_random_filled)
+		cnf, dict_values=simplefy(cnf,dict_values)
 		print(len(cnf))
-		previous_count=count
-
-
+		check_if_backtracking_needed(cnf)
 	print(dict_values)
 	for key in dict_values.keys():
 		if key > 0 and dict_values[key]==1:
