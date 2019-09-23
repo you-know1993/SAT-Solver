@@ -9,6 +9,7 @@ def read_dimac(file):
 	cnf = list()
 	cnf.append(list())
 	maxvar = 0
+	minvar = 0
 
 	for line in f1:
 		tokens = line.split()
@@ -16,6 +17,7 @@ def read_dimac(file):
 			for tok in tokens:
 				lit = int(tok)
 				maxvar = max(maxvar, abs(lit))
+				minvar = min(minvar, abs(lit))
 				if lit == 0:
 					cnf.append(list())
 				else:
@@ -109,18 +111,35 @@ def random_fill(cnf, dict_values,list_random_filled):
 		list_random_filled.append(element)
 	return(dict_values, list_random_filled)
 
-'''def dpll(cnf, dict_values,list_random_filled):
+def dpll(cnf, dict_values,list_random_filled):
+	print(list_random_filled)
 	cnf_copy=copy.deepcopy(cnf)
 	cnf_copy2=copy.deepcopy(cnf)
-	dict_values, list_random_filled=random_fill(cnf, dict_values,list_random_filled)
-	cnf_copy=remove_false_elements(cnf_copy,dict_values)
-	cnf_copy=remove_true_clauses(cnf_copy, dict_values)
-	if check_if_backtracking_needed:
-		dict_values[list_random_filled[-1]]=0
-		dict_values[-list_random_filled[-1]]=0
-		cnf_copy2=remove_false_elements(cnf_copy2,dict_values)
-		cnf_copy2=remove_true_clauses(cnf_copy2, dict_values)
-'''
+	dict_copy=copy.deepcopy(dict_values)
+	list_fill_copy=copy.deepcopy(list_random_filled)
+	dict_copy, list_random_filled=random_fill(cnf_copy, dict_copy,list_fill_copy)
+	cnf_copy, dict_copy=simplefy(cnf_copy, dict_copy)
+	if cnf_copy==[]:
+		return cnf_copy, dict_copy, list_random_filled
+	elif check_if_backtracking_needed(cnf_copy):
+		last_element=list_random_filled[-1]
+		list_random_filled.pop()
+		list_random_filled.append(-1*last_element)
+		print(list_random_filled)
+		dict_copy[list_fill_copy[-1]]=0
+		dict_copy[-list_fill_copy[-1]]=1
+		cnf_copy2, dict_copy=simplefy(cnf_copy2, dict_copy)
+		if cnf_copy2==[]:
+			return cnf_copy2, dict_copy, list_random_filled
+		elif check_if_backtracking_needed(cnf_copy2):
+			list_random_filled.pop()
+			return dpll(cnf, dict_values,list_random_filled)
+
+		else:
+			return dpll(cnf_copy2, dict_copy,list_random_filled)
+	else:
+		return dpll(cnf_copy, dict_copy,list_random_filled)
+
 def simplefy(cnf, dict_values):
 	count=0
 	previous_count=None
@@ -135,6 +154,7 @@ def simplefy(cnf, dict_values):
 
 
 if __name__== "__main__":
+	answer=[]
 	dict_values=dict()
 	list_random_filled=[]
 	cnf, maxvar=read_dimac("sudoku-rules.txt")
@@ -144,12 +164,12 @@ if __name__== "__main__":
 	cnf, dict_values=simplefy(cnf,dict_values)
 	if check_if_backtracking_needed(cnf):
 		print('UNSAT')
-	while cnf!=[]:
-		dict_values, list_random_filled=random_fill(cnf, dict_values,list_random_filled)
-		cnf, dict_values=simplefy(cnf,dict_values)
-		print(len(cnf))
-		check_if_backtracking_needed(cnf)
+	cnf, dict_values, list_random_filled=dpll(cnf, dict_values, list_random_filled)
+	print(list_random_filled)
+	print(cnf)
 	print(dict_values)
 	for key in dict_values.keys():
 		if key > 0 and dict_values[key]==1:
-			print(key)
+			answer.append(key)
+	answer.sort()
+	print(answer)
