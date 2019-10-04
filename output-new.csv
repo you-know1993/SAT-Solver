@@ -541,3 +541,39 @@ sudoku-0179,25,SAT,Dynamic largest individual sum,39,21,20,18.161715745925903
 sudoku-0180,25,SAT,Random,16,6,2,17.527026891708374
 sudoku-0180,25,SAT,Two-Sided Jeroslow-Wang,6,1,0,18.2617244720459
 sudoku-0180,25,SAT,Dynamic largest individual sum,56,21,20,19.477885723114014
+sudoku-0181,25,SAT,Random,14,0,0,19.55439829826355
+sudoku-0181,25,SAT,Two-Sided Jeroslow-Wang,24,10,7,28.751016855239868
+sudoku-0181,25,SAT,Dynamic largest individual sum,225,170,168,47.37415409088135
+sudoku-0182,25,SAT,Random,7,0,0,14.054210662841797
+sudoku-0182,25,SAT,Two-Sided Jeroslow-Wang,5,0,0,14.142802238464355
+sudoku-0182,25,SAT,Dynamic largest individual sum,42,12,11,15.5380699634552
+sudoku-0183,25,SAT,Random,7,0,0,14.254742622375488
+sudoku-0183,25,SAT,Two-Sided Jeroslow-Wang,4,0,0,14.236854791641235
+sudoku-0183,25,SAT,Dynamic largest individual sum,45,16,15,15.846717119216919
+sudoku-0184,25,SAT,Random,14,1,0,14.543068408966064
+sudoku-0184,25,SAT,Two-Sided Jeroslow-Wang,5,0,0,13.763994932174683
+sudoku-0184,25,SAT,Dynamic largest individual sum,53,14,13,16.151767015457153
+sudoku-0185,25,SAT,Random,1,0,0,13.896530389785767
+sudoku-0185,25,SAT,Two-Sided Jeroslow-Wang,10,3,1,14.558746814727783
+sudoku-0185,25,SAT,Dynamic largest individual sum,68,32,31,19.312712907791138
+sudoku-0186,25,SAT,Random,9,0,0,14.460248708724976
+sudoku-0186,25,SAT,Two-Sided Jeroslow-Wang,9,0,0,14.330593347549438
+sudoku-0186,25,SAT,Dynamic largest individual sum,76,21,20,21.546886444091797
+sudoku-0187,25,SAT,Random,7,0,0,26.25551152229309
+sudoku-0187,25,SAT,Two-Sided Jeroslow-Wang,7,0,0,14.04622769355774
+sudoku-0187,25,SAT,Dynamic largest individual sum,60,40,39,27.20446252822876
+sudoku-0188,25,SAT,Random,7,0,0,16.084089994430542
+sudoku-0188,25,SAT,Two-Sided Jeroslow-Wang,6,0,0,16.87725281715393
+sudoku-0188,25,SAT,Dynamic largest individual sum,55,16,15,16.784758806228638
+sudoku-0189,25,SAT,Random,10,1,0,15.143844842910767
+sudoku-0189,25,SAT,Two-Sided Jeroslow-Wang,6,0,0,14.51314401626587
+sudoku-0189,25,SAT,Dynamic largest individual sum,72,31,30,21.042006969451904
+sudoku-0190,25,SAT,Random,29,21,19,28.918461561203003
+sudoku-0190,25,SAT,Two-Sided Jeroslow-Wang,7,2,0,17.145763397216797
+sudoku-0190,25,SAT,Dynamic largest individual sum,348,295,293,75.92655086517334
+sudoku-0191,25,SAT,Random,7,0,0,14.824918746948242
+sudoku-0191,25,SAT,Two-Sided Jeroslow-Wang,5,0,0,15.196799278259277
+sudoku-0191,25,SAT,Dynamic largest individual sum,113,90,89,25.65842342376709
+sudoku-0192,25,SAT,Random,16,6,5,15.808600664138794
+sudoku-0192,25,SAT,Two-Sided Jeroslow-Wang,15,4,0,15.610056400299072
+sudoku-0192,25,SAT,Dynamic largest individual sum,115,71,70,25.93379306793213
