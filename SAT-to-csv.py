@@ -363,7 +363,7 @@ if __name__== "__main__":
 		puzzle=base.strip('.txt')
 		lines=[do_ran(filename), do_jw(filename), do_dlis(filename)]
 		print(lines)
-		with open('output.csv', 'a') as writeFile:
+		with open('output-new.csv', 'a') as writeFile:
 			writer = csv.writer(writeFile)
 			writer.writerows(lines)
 
