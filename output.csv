@@ -1,0 +1,1252 @@
+Puzzle,Number_of_given_elements,Result,Heuristics,Splits,Backtracks,Time
+sudoku-0000,22,SAT,Random,14,1,19.331215143203735
+sudoku-0000,22,SAT,Two-Sided Jeroslow-Wang,26,6,23.48215913772583
+sudoku-0000,22,SAT,Dynamic largest individual sum,16696,16641,1424.7856469154358
+sudoku-0000,22,SAT,Random,20,1,12.735035181045532
+sudoku-0000,22,SAT,Two-Sided Jeroslow-Wang,26,6,15.738166093826294
+sudoku-0000,22,SAT,Dynamic largest individual sum,16696,16641,1140.6130287647247
+sudoku-0001,22,SAT,Random,69,35,15.4690420627594
+sudoku-0001,22,SAT,Two-Sided Jeroslow-Wang,13,0,10.490943193435669
+sudoku-0001,22,SAT,Dynamic largest individual sum,292,225,23.933252096176147
+sudoku-0002,23,SAT,Random,23,6,9.751405715942383
+sudoku-0002,23,SAT,Two-Sided Jeroslow-Wang,6,0,8.915324926376343
+sudoku-0002,23,SAT,Dynamic largest individual sum,314,264,19.310654163360596
+sudoku-0003,23,SAT,Random,10,0,9.500346660614014
+sudoku-0003,23,SAT,Two-Sided Jeroslow-Wang,8,1,9.064931154251099
+sudoku-0003,23,SAT,Dynamic largest individual sum,222,176,16.55820345878601
+sudoku-0004,23,SAT,Random,9,0,9.396665573120117
+sudoku-0004,23,SAT,Two-Sided Jeroslow-Wang,11,0,9.915533781051636
+sudoku-0004,23,SAT,Dynamic largest individual sum,125,65,14.220499038696289
+sudoku-0005,23,SAT,Random,8,0,9.190519332885742
+sudoku-0005,23,SAT,Two-Sided Jeroslow-Wang,14,2,9.152493238449097
+sudoku-0005,23,SAT,Dynamic largest individual sum,93,57,11.27203106880188
+sudoku-0006,23,SAT,Random,6,1,8.788696765899658
+sudoku-0006,23,SAT,Two-Sided Jeroslow-Wang,8,3,9.114487886428833
+sudoku-0006,23,SAT,Dynamic largest individual sum,130,112,10.692557334899902
+sudoku-0007,23,SAT,Random,3,0,8.789133787155151
+sudoku-0007,23,SAT,Two-Sided Jeroslow-Wang,4,0,8.473990201950073
+sudoku-0007,23,SAT,Dynamic largest individual sum,38,21,8.758348941802979
+sudoku-0008,23,SAT,Random,10,2,9.175518989562988
+sudoku-0008,23,SAT,Two-Sided Jeroslow-Wang,11,1,9.444719791412354
+sudoku-0008,23,SAT,Dynamic largest individual sum,76,27,10.913290739059448
+sudoku-0009,23,SAT,Random,24,2,11.279053211212158
+sudoku-0009,23,SAT,Two-Sided Jeroslow-Wang,9,0,10.154704093933105
+sudoku-0009,23,SAT,Dynamic largest individual sum,252,193,21.98339319229126
+sudoku-0010,23,SAT,Random,49,33,16.175899982452393
+sudoku-0010,23,SAT,Two-Sided Jeroslow-Wang,20,3,11.02834153175354
+sudoku-0010,23,SAT,Dynamic largest individual sum,1254,1197,76.9903633594513
+sudoku-0011,23,SAT,Random,5,0,8.669963598251343
+sudoku-0011,23,SAT,Two-Sided Jeroslow-Wang,7,0,8.47953486442566
+sudoku-0011,23,SAT,Dynamic largest individual sum,35,17,9.025362491607666
+sudoku-0012,23,SAT,Random,8,1,9.285473585128784
+sudoku-0012,23,SAT,Two-Sided Jeroslow-Wang,5,1,9.038912773132324
+sudoku-0012,23,SAT,Dynamic largest individual sum,87,49,11.50505018234253
+sudoku-0013,23,SAT,Random,14,2,10.123625755310059
+sudoku-0013,23,SAT,Two-Sided Jeroslow-Wang,20,4,10.442022800445557
+sudoku-0013,23,SAT,Dynamic largest individual sum,425,382,29.069631099700928
+sudoku-0014,23,SAT,Random,14,1,9.818095684051514
+sudoku-0014,23,SAT,Two-Sided Jeroslow-Wang,16,6,9.712390899658203
+sudoku-0014,23,SAT,Dynamic largest individual sum,1143,1110,49.17437696456909
+sudoku-0015,23,SAT,Random,20,3,10.690054178237915
+sudoku-0015,23,SAT,Two-Sided Jeroslow-Wang,16,3,10.24126648902893
+sudoku-0015,23,SAT,Dynamic largest individual sum,343,294,23.03294825553894
+sudoku-0016,23,SAT,Random,8,0,9.06283164024353
+sudoku-0016,23,SAT,Two-Sided Jeroslow-Wang,2,0,8.858806371688843
+sudoku-0016,23,SAT,Dynamic largest individual sum,70,39,10.44876217842102
+sudoku-0017,23,SAT,Random,14,2,9.335241556167603
+sudoku-0017,23,SAT,Two-Sided Jeroslow-Wang,8,0,9.03542947769165
+sudoku-0017,23,SAT,Dynamic largest individual sum,75,39,10.399019718170166
+sudoku-0018,23,SAT,Random,7,1,9.19445538520813
+sudoku-0018,23,SAT,Two-Sided Jeroslow-Wang,1,0,8.701851606369019
+sudoku-0018,23,SAT,Dynamic largest individual sum,76,59,10.55059552192688
+sudoku-0019,23,SAT,Random,8,1,8.639012098312378
+sudoku-0019,23,SAT,Two-Sided Jeroslow-Wang,6,0,8.707698583602905
+sudoku-0019,23,SAT,Dynamic largest individual sum,67,45,9.961661100387573
+sudoku-0020,23,SAT,Random,13,5,9.387126922607422
+sudoku-0020,23,SAT,Two-Sided Jeroslow-Wang,13,4,9.24303936958313
+sudoku-0020,23,SAT,Dynamic largest individual sum,121,85,13.976565599441528
+sudoku-0021,24,SAT,Random,13,3,10.144195318222046
+sudoku-0021,24,SAT,Two-Sided Jeroslow-Wang,14,2,10.017104625701904
+sudoku-0021,24,SAT,Dynamic largest individual sum,1155,1117,60.32011532783508
+sudoku-0022,24,SAT,Random,9,1,9.296059608459473
+sudoku-0022,24,SAT,Two-Sided Jeroslow-Wang,4,0,9.30410099029541
+sudoku-0022,24,SAT,Dynamic largest individual sum,644,607,34.030356645584106
+sudoku-0023,24,SAT,Random,12,0,9.39818787574768
+sudoku-0023,24,SAT,Two-Sided Jeroslow-Wang,10,2,8.964421033859253
+sudoku-0023,24,SAT,Dynamic largest individual sum,109,65,12.702901840209961
+sudoku-0024,24,SAT,Random,7,0,8.88677191734314
+sudoku-0024,24,SAT,Two-Sided Jeroslow-Wang,5,0,8.812251806259155
+sudoku-0024,24,SAT,Dynamic largest individual sum,712,682,41.17574667930603
+sudoku-0025,24,SAT,Random,16,0,10.339390754699707
+sudoku-0025,24,SAT,Two-Sided Jeroslow-Wang,11,0,9.764928579330444
+sudoku-0025,24,SAT,Dynamic largest individual sum,408,354,25.155271291732788
+sudoku-0026,24,SAT,Random,28,6,10.707490921020508
+sudoku-0026,24,SAT,Two-Sided Jeroslow-Wang,7,0,9.255087614059448
+sudoku-0026,24,SAT,Dynamic largest individual sum,1081,1030,56.64854621887207
+sudoku-0027,24,SAT,Random,14,0,9.593717575073242
+sudoku-0027,24,SAT,Two-Sided Jeroslow-Wang,9,1,10.74312162399292
+sudoku-0027,24,SAT,Dynamic largest individual sum,433,358,31.498599529266357
+sudoku-0028,24,SAT,Random,7,0,9.023324728012085
+sudoku-0028,24,SAT,Two-Sided Jeroslow-Wang,1,0,8.688164710998535
+sudoku-0028,24,SAT,Dynamic largest individual sum,153,117,13.483283758163452
+sudoku-0029,24,SAT,Random,14,0,10.1528799533844
+sudoku-0029,24,SAT,Two-Sided Jeroslow-Wang,11,0,10.489963293075562
+sudoku-0029,24,SAT,Dynamic largest individual sum,288,223,22.31752347946167
+sudoku-0030,24,SAT,Random,2,0,8.859747648239136
+sudoku-0030,24,SAT,Two-Sided Jeroslow-Wang,5,1,9.01839828491211
+sudoku-0030,24,SAT,Dynamic largest individual sum,84,49,11.059392213821411
+sudoku-0031,24,SAT,Random,10,0,9.420195817947388
+sudoku-0031,24,SAT,Two-Sided Jeroslow-Wang,8,1,9.694356918334961
+sudoku-0031,24,SAT,Dynamic largest individual sum,496,458,25.123213052749634
+sudoku-0032,24,SAT,Random,15,0,9.850388288497925
+sudoku-0032,24,SAT,Two-Sided Jeroslow-Wang,8,1,9.866498470306396
+sudoku-0032,24,SAT,Dynamic largest individual sum,1203,1151,52.499202489852905
+sudoku-0033,24,SAT,Random,12,0,9.700807571411133
+sudoku-0033,24,SAT,Two-Sided Jeroslow-Wang,1,0,8.945825338363647
+sudoku-0033,24,SAT,Dynamic largest individual sum,329,280,24.84816813468933
+sudoku-0034,24,SAT,Random,36,30,13.284377574920654
+sudoku-0034,24,SAT,Two-Sided Jeroslow-Wang,6,1,9.823723554611206
+sudoku-0034,24,SAT,Dynamic largest individual sum,136,75,15.5264310836792
+sudoku-0035,24,SAT,Random,27,1,11.439994096755981
+sudoku-0035,24,SAT,Two-Sided Jeroslow-Wang,12,0,9.771911859512329
+sudoku-0035,24,SAT,Dynamic largest individual sum,1169,1126,71.6902768611908
+sudoku-0036,24,SAT,Random,13,0,9.610266208648682
+sudoku-0036,24,SAT,Two-Sided Jeroslow-Wang,9,0,9.285608768463135
+sudoku-0036,24,SAT,Dynamic largest individual sum,113,61,13.455001592636108
+sudoku-0037,24,SAT,Random,11,0,9.672242164611816
+sudoku-0037,24,SAT,Two-Sided Jeroslow-Wang,9,0,9.436715602874756
+sudoku-0037,24,SAT,Dynamic largest individual sum,168,127,15.55008864402771
+sudoku-0038,24,SAT,Random,26,6,10.753591060638428
+sudoku-0038,24,SAT,Two-Sided Jeroslow-Wang,1,0,9.03965950012207
+sudoku-0038,24,SAT,Dynamic largest individual sum,500,450,27.97596502304077
+sudoku-0039,24,SAT,Random,10,0,9.487886667251587
+sudoku-0039,24,SAT,Two-Sided Jeroslow-Wang,14,1,10.295323371887207
+sudoku-0039,24,SAT,Dynamic largest individual sum,461,401,30.353578090667725
+sudoku-0040,24,SAT,Random,14,0,11.014816761016846
+sudoku-0040,24,SAT,Two-Sided Jeroslow-Wang,17,1,10.931235551834106
+sudoku-0040,24,SAT,Dynamic largest individual sum,1984,1919,107.74145841598511
+sudoku-0041,24,SAT,Random,6,1,8.980587720870972
+sudoku-0041,24,SAT,Two-Sided Jeroslow-Wang,2,0,8.781208038330078
+sudoku-0041,24,SAT,Dynamic largest individual sum,20,11,9.133577346801758
+sudoku-0042,24,SAT,Random,5,1,8.975565433502197
+sudoku-0042,24,SAT,Two-Sided Jeroslow-Wang,3,0,8.729712963104248
+sudoku-0042,24,SAT,Dynamic largest individual sum,85,57,10.964879989624023
+sudoku-0043,24,SAT,Random,5,0,8.777862071990967
+sudoku-0043,24,SAT,Two-Sided Jeroslow-Wang,6,1,8.877318859100342
+sudoku-0043,24,SAT,Dynamic largest individual sum,103,68,11.230565071105957
+sudoku-0044,24,SAT,Random,1,0,9.270773649215698
+sudoku-0044,24,SAT,Two-Sided Jeroslow-Wang,18,9,10.306833267211914
+sudoku-0044,24,SAT,Dynamic largest individual sum,178,146,14.252265453338623
+sudoku-0045,24,SAT,Random,19,0,10.87219500541687
+sudoku-0045,24,SAT,Two-Sided Jeroslow-Wang,13,0,10.638545751571655
+sudoku-0045,24,SAT,Dynamic largest individual sum,202,133,19.644742250442505
+sudoku-0046,24,SAT,Random,26,14,10.272252321243286
+sudoku-0046,24,SAT,Two-Sided Jeroslow-Wang,10,2,8.917848348617554
+sudoku-0046,24,SAT,Dynamic largest individual sum,157,139,14.343605756759644
+sudoku-0047,24,SAT,Random,11,1,9.29954218864441
+sudoku-0047,24,SAT,Two-Sided Jeroslow-Wang,2,0,8.76571249961853
+sudoku-0047,24,SAT,Dynamic largest individual sum,82,59,11.313713312149048
+sudoku-0048,24,SAT,Random,23,9,11.028792142868042
+sudoku-0048,24,SAT,Two-Sided Jeroslow-Wang,10,2,9.8684983253479
+sudoku-0048,24,SAT,Dynamic largest individual sum,822,790,41.914655923843384
+sudoku-0049,24,SAT,Random,59,41,18.455767154693604
+sudoku-0049,24,SAT,Two-Sided Jeroslow-Wang,23,9,11.386573791503906
+sudoku-0049,24,SAT,Dynamic largest individual sum,417,340,31.145804166793823
+sudoku-0050,24,SAT,Random,10,0,8.576616525650024
+sudoku-0050,24,SAT,Two-Sided Jeroslow-Wang,6,1,8.531074047088623
+sudoku-0050,24,SAT,Dynamic largest individual sum,59,36,9.269596815109253
+sudoku-0051,24,SAT,Random,9,1,9.011895418167114
+sudoku-0051,24,SAT,Two-Sided Jeroslow-Wang,3,0,8.555589199066162
+sudoku-0051,24,SAT,Dynamic largest individual sum,127,97,11.193041324615479
+sudoku-0052,24,SAT,Random,6,0,8.799839973449707
+sudoku-0052,24,SAT,Two-Sided Jeroslow-Wang,4,0,8.562072038650513
+sudoku-0052,24,SAT,Dynamic largest individual sum,74,41,10.628280878067017
+sudoku-0053,24,SAT,Random,65,60,15.983708143234253
+sudoku-0053,24,SAT,Two-Sided Jeroslow-Wang,3,1,9.151460409164429
+sudoku-0053,24,SAT,Dynamic largest individual sum,728,711,37.580026149749756
+sudoku-0054,24,SAT,Random,25,5,10.812053203582764
+sudoku-0054,24,SAT,Two-Sided Jeroslow-Wang,8,0,9.499260663986206
+sudoku-0054,24,SAT,Dynamic largest individual sum,641,572,42.99342942237854
+sudoku-0055,24,SAT,Random,14,1,9.106428623199463
+sudoku-0055,24,SAT,Two-Sided Jeroslow-Wang,9,0,9.244560480117798
+sudoku-0055,24,SAT,Dynamic largest individual sum,783,750,42.55744743347168
+sudoku-0056,24,SAT,Random,9,3,8.710628032684326
+sudoku-0056,24,SAT,Two-Sided Jeroslow-Wang,9,7,8.665666818618774
+sudoku-0056,24,SAT,Dynamic largest individual sum,64,33,9.643120288848877
+sudoku-0057,24,SAT,Random,9,0,9.075153112411499
+sudoku-0057,24,SAT,Two-Sided Jeroslow-Wang,9,0,9.074917078018188
+sudoku-0057,24,SAT,Dynamic largest individual sum,227,186,14.755487442016602
+sudoku-0058,24,SAT,Random,18,2,9.70950698852539
+sudoku-0058,24,SAT,Two-Sided Jeroslow-Wang,6,0,8.770243167877197
+sudoku-0058,24,SAT,Dynamic largest individual sum,561,517,35.72368025779724
+sudoku-0059,24,SAT,Random,27,4,12.651293992996216
+sudoku-0059,24,SAT,Two-Sided Jeroslow-Wang,6,1,9.271788358688354
+sudoku-0059,24,SAT,Dynamic largest individual sum,154,75,18.604809045791626
+sudoku-0060,24,SAT,Random,28,5,10.39644193649292
+sudoku-0060,24,SAT,Two-Sided Jeroslow-Wang,6,0,9.280582189559937
+sudoku-0060,24,SAT,Dynamic largest individual sum,605,565,35.34568691253662
+sudoku-0061,24,SAT,Random,8,1,8.825143337249756
+sudoku-0061,24,SAT,Two-Sided Jeroslow-Wang,4,0,8.442991495132446
+sudoku-0061,24,SAT,Dynamic largest individual sum,96,65,11.495037078857422
+sudoku-0062,24,SAT,Random,4,0,8.713808536529541
+sudoku-0062,24,SAT,Two-Sided Jeroslow-Wang,4,0,8.487022876739502
+sudoku-0062,24,SAT,Dynamic largest individual sum,117,90,10.66645884513855
+sudoku-0063,24,SAT,Random,3,0,8.575855255126953
+sudoku-0063,24,SAT,Two-Sided Jeroslow-Wang,3,0,8.510539293289185
+sudoku-0063,24,SAT,Dynamic largest individual sum,36,11,8.85936975479126
+sudoku-0064,24,SAT,Random,7,0,9.886167287826538
+sudoku-0064,24,SAT,Two-Sided Jeroslow-Wang,8,0,9.403671979904175
+sudoku-0064,24,SAT,Dynamic largest individual sum,361,299,27.550121545791626
+sudoku-0065,24,SAT,Random,13,1,9.36700963973999
+sudoku-0065,24,SAT,Two-Sided Jeroslow-Wang,6,0,9.00088357925415
+sudoku-0065,24,SAT,Dynamic largest individual sum,550,502,30.455336332321167
+sudoku-0066,24,SAT,Random,10,1,8.934839010238647
+sudoku-0066,24,SAT,Two-Sided Jeroslow-Wang,2,0,8.714183568954468
+sudoku-0066,24,SAT,Dynamic largest individual sum,76,45,10.37838077545166
+sudoku-0067,24,SAT,Random,7,0,9.087891578674316
+sudoku-0067,24,SAT,Two-Sided Jeroslow-Wang,7,1,9.264946937561035
+sudoku-0067,24,SAT,Dynamic largest individual sum,1543,1506,70.79259014129639
+sudoku-0068,24,SAT,Random,20,2,10.200239419937134
+sudoku-0068,24,SAT,Two-Sided Jeroslow-Wang,1,0,8.675673723220825
+sudoku-0068,24,SAT,Dynamic largest individual sum,1631,1570,79.07578802108765
+sudoku-0069,24,SAT,Random,2,0,8.335291862487793
+sudoku-0069,24,SAT,Two-Sided Jeroslow-Wang,2,0,8.368458986282349
+sudoku-0069,24,SAT,Dynamic largest individual sum,68,39,10.245331048965454
+sudoku-0070,24,SAT,Random,26,2,11.767504930496216
+sudoku-0070,24,SAT,Two-Sided Jeroslow-Wang,27,21,11.82537055015564
+sudoku-0070,24,SAT,Dynamic largest individual sum,995,939,57.001471281051636
+sudoku-0071,24,SAT,Random,21,14,9.615726470947266
+sudoku-0071,24,SAT,Two-Sided Jeroslow-Wang,2,0,8.918347120285034
+sudoku-0071,24,SAT,Dynamic largest individual sum,186,156,13.665403604507446
+sudoku-0072,24,SAT,Random,15,2,9.546122074127197
+sudoku-0072,24,SAT,Two-Sided Jeroslow-Wang,8,0,9.246726751327515
+sudoku-0072,24,SAT,Dynamic largest individual sum,229,164,18.910167694091797
+sudoku-0073,24,SAT,Random,10,0,9.408154010772705
+sudoku-0073,24,SAT,Two-Sided Jeroslow-Wang,10,1,9.077940225601196
+sudoku-0073,24,SAT,Dynamic largest individual sum,841,792,44.1025595664978
+sudoku-0074,24,SAT,Random,13,0,9.396775484085083
+sudoku-0074,24,SAT,Two-Sided Jeroslow-Wang,6,0,8.978891611099243
+sudoku-0074,24,SAT,Dynamic largest individual sum,172,135,16.323596715927124
+sudoku-0075,24,SAT,Random,4,0,8.871453762054443
+sudoku-0075,24,SAT,Two-Sided Jeroslow-Wang,3,0,8.78173017501831
+sudoku-0075,24,SAT,Dynamic largest individual sum,60,35,9.791159868240356
+sudoku-0076,24,SAT,Random,13,1,9.737023830413818
+sudoku-0076,24,SAT,Two-Sided Jeroslow-Wang,7,0,9.425207376480103
+sudoku-0076,24,SAT,Dynamic largest individual sum,99,47,12.43669319152832
+sudoku-0077,24,SAT,Random,9,0,9.049198389053345
+sudoku-0077,24,SAT,Two-Sided Jeroslow-Wang,5,0,8.913344383239746
+sudoku-0077,24,SAT,Dynamic largest individual sum,185,159,13.754055261611938
+sudoku-0078,24,SAT,Random,6,0,9.458911418914795
+sudoku-0078,24,SAT,Two-Sided Jeroslow-Wang,10,1,9.646844625473022
+sudoku-0078,24,SAT,Dynamic largest individual sum,198,155,15.607731580734253
+sudoku-0079,24,SAT,Random,14,0,10.026861906051636
+sudoku-0079,24,SAT,Two-Sided Jeroslow-Wang,12,0,9.96106743812561
+sudoku-0079,24,SAT,Dynamic largest individual sum,100,39,12.991173028945923
+sudoku-0080,24,SAT,Random,6,2,10.800833463668823
+sudoku-0080,24,SAT,Two-Sided Jeroslow-Wang,7,0,9.348999977111816
+sudoku-0080,24,SAT,Dynamic largest individual sum,510,475,40.30707097053528
+sudoku-0081,24,SAT,Random,7,0,9.381853103637695
+sudoku-0081,24,SAT,Two-Sided Jeroslow-Wang,18,4,10.20874285697937
+sudoku-0081,24,SAT,Dynamic largest individual sum,998,954,49.627002477645874
+sudoku-0082,24,SAT,Random,4,0,8.640035152435303
+sudoku-0082,24,SAT,Two-Sided Jeroslow-Wang,7,0,8.657681226730347
+sudoku-0082,24,SAT,Dynamic largest individual sum,73,19,10.500958919525146
+sudoku-0083,24,SAT,Random,13,0,9.751672744750977
+sudoku-0083,24,SAT,Two-Sided Jeroslow-Wang,13,2,9.934548139572144
+sudoku-0083,24,SAT,Dynamic largest individual sum,389,332,22.65025544166565
+sudoku-0084,24,SAT,Random,8,0,9.209649324417114
+sudoku-0084,24,SAT,Two-Sided Jeroslow-Wang,10,0,9.228066444396973
+sudoku-0084,24,SAT,Dynamic largest individual sum,87,45,11.388534307479858
+sudoku-0085,24,SAT,Random,12,0,9.451773881912231
+sudoku-0085,24,SAT,Two-Sided Jeroslow-Wang,7,0,9.139981746673584
+sudoku-0085,24,SAT,Dynamic largest individual sum,124,74,12.33707880973816
+sudoku-0086,24,SAT,Random,16,0,9.799933433532715
+sudoku-0086,24,SAT,Two-Sided Jeroslow-Wang,10,2,10.055633783340454
+sudoku-0086,24,SAT,Dynamic largest individual sum,196,155,17.32555603981018
+sudoku-0087,24,SAT,Random,16,0,9.565731763839722
+sudoku-0087,24,SAT,Two-Sided Jeroslow-Wang,6,0,9.168506145477295
+sudoku-0087,24,SAT,Dynamic largest individual sum,110,45,12.52861213684082
+sudoku-0088,24,SAT,Random,9,0,9.044471263885498
+sudoku-0088,24,SAT,Two-Sided Jeroslow-Wang,5,0,8.81024980545044
+sudoku-0088,24,SAT,Dynamic largest individual sum,99,49,11.9011869430542
+sudoku-0089,24,SAT,Random,49,27,12.589520692825317
+sudoku-0089,24,SAT,Two-Sided Jeroslow-Wang,19,8,9.715393304824829
+sudoku-0089,24,SAT,Dynamic largest individual sum,197,151,15.73404574394226
+sudoku-0090,24,SAT,Random,17,1,9.855992078781128
+sudoku-0090,24,SAT,Two-Sided Jeroslow-Wang,5,0,9.047439813613892
+sudoku-0090,24,SAT,Dynamic largest individual sum,377,320,20.19941544532776
+sudoku-0091,24,SAT,Random,20,15,9.85744833946228
+sudoku-0091,24,SAT,Two-Sided Jeroslow-Wang,12,2,9.440717458724976
+sudoku-0091,24,SAT,Dynamic largest individual sum,192,158,16.104215145111084
+sudoku-0092,24,SAT,Random,8,1,10.270480155944824
+sudoku-0092,24,SAT,Two-Sided Jeroslow-Wang,5,0,9.573791742324829
+sudoku-0092,24,SAT,Dynamic largest individual sum,749,718,42.66265678405762
+sudoku-0093,24,SAT,Random,13,0,9.108943462371826
+sudoku-0093,24,SAT,Two-Sided Jeroslow-Wang,10,1,9.082443237304688
+sudoku-0093,24,SAT,Dynamic largest individual sum,146,107,13.64422607421875
+sudoku-0094,24,SAT,Random,11,0,9.226524829864502
+sudoku-0094,24,SAT,Two-Sided Jeroslow-Wang,10,4,9.374152660369873
+sudoku-0094,24,SAT,Dynamic largest individual sum,81,51,11.125835418701172
+sudoku-0095,24,SAT,Random,12,0,9.577764511108398
+sudoku-0095,24,SAT,Two-Sided Jeroslow-Wang,6,0,9.067930221557617
+sudoku-0095,24,SAT,Dynamic largest individual sum,128,79,12.963731527328491
+sudoku-0096,24,SAT,Random,7,0,9.145960569381714
+sudoku-0096,24,SAT,Two-Sided Jeroslow-Wang,7,0,9.425695180892944
+sudoku-0096,24,SAT,Dynamic largest individual sum,220,178,15.971621990203857
+sudoku-0097,24,SAT,Random,18,3,9.133426904678345
+sudoku-0097,24,SAT,Two-Sided Jeroslow-Wang,14,2,9.22054386138916
+sudoku-0097,24,SAT,Dynamic largest individual sum,524,496,25.327444791793823
+sudoku-0098,24,SAT,Random,22,9,11.439088106155396
+sudoku-0098,24,SAT,Two-Sided Jeroslow-Wang,6,0,9.396668195724487
+sudoku-0098,24,SAT,Dynamic largest individual sum,748,688,47.98649287223816
+sudoku-0099,24,SAT,Random,10,0,8.900293350219727
+sudoku-0099,24,SAT,Two-Sided Jeroslow-Wang,7,1,8.740699529647827
+sudoku-0099,24,SAT,Dynamic largest individual sum,83,54,10.090100526809692
+sudoku-0100,24,SAT,Random,19,5,9.661535501480103
+sudoku-0100,24,SAT,Two-Sided Jeroslow-Wang,9,0,9.332679510116577
+sudoku-0100,24,SAT,Dynamic largest individual sum,284,251,19.819067001342773
+sudoku-0101,24,SAT,Random,25,3,10.016518592834473
+sudoku-0101,24,SAT,Two-Sided Jeroslow-Wang,7,0,9.439694881439209
+sudoku-0101,24,SAT,Dynamic largest individual sum,141,103,14.10645866394043
+sudoku-0102,24,SAT,Random,31,4,12.786449670791626
+sudoku-0102,24,SAT,Two-Sided Jeroslow-Wang,6,1,9.267948865890503
+sudoku-0102,24,SAT,Dynamic largest individual sum,14071,14033,711.8150515556335
+sudoku-0103,24,SAT,Random,19,12,9.811562299728394
+sudoku-0103,24,SAT,Two-Sided Jeroslow-Wang,3,0,8.445491552352905
+sudoku-0103,24,SAT,Dynamic largest individual sum,145,122,13.041617631912231
+sudoku-0104,24,SAT,Random,5,0,8.723626613616943
+sudoku-0104,24,SAT,Two-Sided Jeroslow-Wang,5,0,8.685163974761963
+sudoku-0104,24,SAT,Dynamic largest individual sum,111,70,11.424081563949585
+sudoku-0105,24,SAT,Random,18,2,9.14562463760376
+sudoku-0105,24,SAT,Two-Sided Jeroslow-Wang,6,1,8.866542100906372
+sudoku-0105,24,SAT,Dynamic largest individual sum,78,43,10.467576265335083
+sudoku-0106,24,SAT,Random,23,2,9.595698833465576
+sudoku-0106,24,SAT,Two-Sided Jeroslow-Wang,3,0,8.577584743499756
+sudoku-0106,24,SAT,Dynamic largest individual sum,51,0,10.576112985610962
+sudoku-0107,24,SAT,Random,15,0,9.362419843673706
+sudoku-0107,24,SAT,Two-Sided Jeroslow-Wang,5,0,9.118947982788086
+sudoku-0107,24,SAT,Dynamic largest individual sum,516,458,31.583420515060425
+sudoku-0108,24,SAT,Random,90,76,22.418253660202026
+sudoku-0108,24,SAT,Two-Sided Jeroslow-Wang,12,5,11.516208410263062
+sudoku-0108,24,SAT,Dynamic largest individual sum,3830,3780,197.88683819770813
+sudoku-0109,24,SAT,Random,20,0,10.32082200050354
+sudoku-0109,24,SAT,Two-Sided Jeroslow-Wang,13,1,10.187225341796875
+sudoku-0109,24,SAT,Dynamic largest individual sum,599,533,33.01616168022156
+sudoku-0110,24,SAT,Random,13,0,9.806699275970459
+sudoku-0110,24,SAT,Two-Sided Jeroslow-Wang,13,0,9.870521783828735
+sudoku-0110,24,SAT,Dynamic largest individual sum,387,308,27.886133909225464
+sudoku-0111,24,SAT,Random,12,0,8.820894479751587
+sudoku-0111,24,SAT,Two-Sided Jeroslow-Wang,4,0,8.586071729660034
+sudoku-0111,24,SAT,Dynamic largest individual sum,68,29,9.987919330596924
+sudoku-0112,24,SAT,Random,20,0,10.608432531356812
+sudoku-0112,24,SAT,Two-Sided Jeroslow-Wang,8,0,9.279775619506836
+sudoku-0112,24,SAT,Dynamic largest individual sum,1310,1262,65.15869569778442
+sudoku-0113,24,SAT,Random,16,0,9.81220030784607
+sudoku-0113,24,SAT,Two-Sided Jeroslow-Wang,10,1,9.543270826339722
+sudoku-0113,24,SAT,Dynamic largest individual sum,108,61,12.891677379608154
+sudoku-0114,24,SAT,Random,14,0,9.190399408340454
+sudoku-0114,24,SAT,Two-Sided Jeroslow-Wang,7,1,8.862285375595093
+sudoku-0114,24,SAT,Dynamic largest individual sum,228,203,16.237390518188477
+sudoku-0115,24,SAT,Random,14,0,9.762292385101318
+sudoku-0115,24,SAT,Two-Sided Jeroslow-Wang,15,2,10.192728996276855
+sudoku-0115,24,SAT,Dynamic largest individual sum,293,240,21.529621601104736
+sudoku-0116,24,SAT,Random,10,1,9.260570526123047
+sudoku-0116,24,SAT,Two-Sided Jeroslow-Wang,4,0,9.074459791183472
+sudoku-0116,24,SAT,Dynamic largest individual sum,54,19,10.000131607055664
+sudoku-0117,24,SAT,Random,14,0,9.661835432052612
+sudoku-0117,24,SAT,Two-Sided Jeroslow-Wang,6,0,9.133730173110962
+sudoku-0117,24,SAT,Dynamic largest individual sum,1020,981,39.70356822013855
+sudoku-0118,24,SAT,Random,8,0,8.756255149841309
+sudoku-0118,24,SAT,Two-Sided Jeroslow-Wang,6,0,8.796760559082031
+sudoku-0118,24,SAT,Dynamic largest individual sum,104,61,12.427622556686401
+sudoku-0119,24,SAT,Random,24,1,11.418603897094727
+sudoku-0119,24,SAT,Two-Sided Jeroslow-Wang,9,0,9.839998722076416
+sudoku-0119,24,SAT,Dynamic largest individual sum,266,198,21.27424168586731
+sudoku-0120,24,SAT,Random,18,0,11.389697313308716
+sudoku-0120,24,SAT,Two-Sided Jeroslow-Wang,8,0,11.931729793548584
+sudoku-0120,24,SAT,Dynamic largest individual sum,870,804,55.77651262283325
+sudoku-0121,24,SAT,Random,11,0,9.302226543426514
+sudoku-0121,24,SAT,Two-Sided Jeroslow-Wang,4,1,9.434191226959229
+sudoku-0121,24,SAT,Dynamic largest individual sum,9420,9388,430.5756356716156
+sudoku-0122,24,SAT,Random,7,0,9.39811086654663
+sudoku-0122,24,SAT,Two-Sided Jeroslow-Wang,21,13,12.762556791305542
+sudoku-0122,24,SAT,Dynamic largest individual sum,1044,992,66.64053511619568
+sudoku-0123,24,SAT,Random,6,0,8.735576391220093
+sudoku-0123,24,SAT,Two-Sided Jeroslow-Wang,10,0,8.806769132614136
+sudoku-0123,24,SAT,Dynamic largest individual sum,273,253,16.149455308914185
+sudoku-0124,24,SAT,Random,12,0,9.663356065750122
+sudoku-0124,24,SAT,Two-Sided Jeroslow-Wang,5,0,8.864767789840698
+sudoku-0124,24,SAT,Dynamic largest individual sum,431,384,28.54144549369812
+sudoku-0125,24,SAT,Random,38,25,15.07331395149231
+sudoku-0125,24,SAT,Two-Sided Jeroslow-Wang,8,1,9.951560974121094
+sudoku-0125,24,SAT,Dynamic largest individual sum,433,384,31.600491523742676
+sudoku-0126,24,SAT,Random,16,2,9.40111517906189
+sudoku-0126,24,SAT,Two-Sided Jeroslow-Wang,2,0,8.752230405807495
+sudoku-0126,24,SAT,Dynamic largest individual sum,425,369,22.806283950805664
+sudoku-0127,24,SAT,Random,8,0,9.08436894416809
+sudoku-0127,24,SAT,Two-Sided Jeroslow-Wang,44,35,13.277997255325317
+sudoku-0127,24,SAT,Dynamic largest individual sum,368,329,25.29448652267456
+sudoku-0128,24,SAT,Random,37,32,12.313602924346924
+sudoku-0128,24,SAT,Two-Sided Jeroslow-Wang,15,10,9.834976196289062
+sudoku-0128,24,SAT,Dynamic largest individual sum,420,387,24.40951943397522
+sudoku-0129,24,SAT,Random,10,1,9.552659749984741
+sudoku-0129,24,SAT,Two-Sided Jeroslow-Wang,8,1,9.163503885269165
+sudoku-0129,24,SAT,Dynamic largest individual sum,3262,3244,153.73849368095398
+sudoku-0130,24,SAT,Random,16,6,8.9017333984375
+sudoku-0130,24,SAT,Two-Sided Jeroslow-Wang,3,0,8.56857681274414
+sudoku-0130,24,SAT,Dynamic largest individual sum,102,81,10.313318967819214
+sudoku-0131,24,SAT,Random,12,2,9.484133243560791
+sudoku-0131,24,SAT,Two-Sided Jeroslow-Wang,13,2,9.093472957611084
+sudoku-0131,24,SAT,Dynamic largest individual sum,594,558,29.016645431518555
+sudoku-0132,24,SAT,Random,33,10,10.722590208053589
+sudoku-0132,24,SAT,Two-Sided Jeroslow-Wang,3,0,8.694167852401733
+sudoku-0132,24,SAT,Dynamic largest individual sum,159,103,14.948362827301025
+sudoku-0133,24,SAT,Random,71,46,17.159121990203857
+sudoku-0133,24,SAT,Two-Sided Jeroslow-Wang,17,2,10.45895767211914
+sudoku-0133,24,SAT,Dynamic largest individual sum,409,349,26.453933715820312
+sudoku-0134,24,SAT,Random,7,0,8.883207559585571
+sudoku-0134,24,SAT,Two-Sided Jeroslow-Wang,7,0,8.846275806427002
+sudoku-0134,24,SAT,Dynamic largest individual sum,75,29,10.55257272720337
+sudoku-0135,24,SAT,Random,7,1,9.010319709777832
+sudoku-0135,24,SAT,Two-Sided Jeroslow-Wang,4,0,8.870293617248535
+sudoku-0135,24,SAT,Dynamic largest individual sum,61,17,10.050108194351196
+sudoku-0136,24,SAT,Random,5,0,9.31374454498291
+sudoku-0136,24,SAT,Two-Sided Jeroslow-Wang,3,0,9.064949989318848
+sudoku-0136,24,SAT,Dynamic largest individual sum,120,83,12.320764064788818
+sudoku-0137,24,SAT,Random,7,0,9.018920183181763
+sudoku-0137,24,SAT,Two-Sided Jeroslow-Wang,9,1,9.3305983543396
+sudoku-0137,24,SAT,Dynamic largest individual sum,44,3,10.31821608543396
+sudoku-0138,24,SAT,Random,15,5,9.751845598220825
+sudoku-0138,24,SAT,Two-Sided Jeroslow-Wang,5,0,8.923452854156494
+sudoku-0138,24,SAT,Dynamic largest individual sum,116,61,12.64138126373291
+sudoku-0139,25,SAT,Random,12,0,8.888049364089966
+sudoku-0139,25,SAT,Two-Sided Jeroslow-Wang,33,24,10.68458080291748
+sudoku-0139,25,SAT,Dynamic largest individual sum,180,147,13.494091987609863
+sudoku-0140,25,SAT,Random,19,5,10.482879638671875
+sudoku-0140,25,SAT,Two-Sided Jeroslow-Wang,22,6,10.874206781387329
+sudoku-0140,25,SAT,Dynamic largest individual sum,540,489,30.482661962509155
+sudoku-0141,25,SAT,Random,14,5,9.925541639328003
+sudoku-0141,25,SAT,Two-Sided Jeroslow-Wang,9,0,9.028427362442017
+sudoku-0141,25,SAT,Dynamic largest individual sum,800,763,49.5208215713501
+sudoku-0142,25,SAT,Random,7,0,8.767124652862549
+sudoku-0142,25,SAT,Two-Sided Jeroslow-Wang,11,1,9.167485475540161
+sudoku-0142,25,SAT,Dynamic largest individual sum,74,30,10.892302751541138
+sudoku-0143,25,SAT,Random,12,1,8.98720645904541
+sudoku-0143,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.626621723175049
+sudoku-0143,25,SAT,Dynamic largest individual sum,69,35,9.996981620788574
+sudoku-0144,25,SAT,Random,8,0,8.931487560272217
+sudoku-0144,25,SAT,Two-Sided Jeroslow-Wang,1,0,8.804765939712524
+sudoku-0144,25,SAT,Dynamic largest individual sum,393,357,25.48948073387146
+sudoku-0145,25,SAT,Random,11,0,9.314008474349976
+sudoku-0145,25,SAT,Two-Sided Jeroslow-Wang,7,0,8.858765125274658
+sudoku-0145,25,SAT,Dynamic largest individual sum,118,59,13.966745615005493
+sudoku-0146,25,SAT,Random,23,17,10.337096691131592
+sudoku-0146,25,SAT,Two-Sided Jeroslow-Wang,18,5,9.653846979141235
+sudoku-0146,25,SAT,Dynamic largest individual sum,305,259,19.140732288360596
+sudoku-0147,25,SAT,Random,45,34,12.456371545791626
+sudoku-0147,25,SAT,Two-Sided Jeroslow-Wang,15,3,9.376173734664917
+sudoku-0147,25,SAT,Dynamic largest individual sum,156,104,15.398063898086548
+sudoku-0148,25,SAT,Random,11,1,9.887516736984253
+sudoku-0148,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.731713771820068
+sudoku-0148,25,SAT,Dynamic largest individual sum,1698,1663,88.94370436668396
+sudoku-0149,25,SAT,Random,6,0,8.532520055770874
+sudoku-0149,25,SAT,Two-Sided Jeroslow-Wang,5,1,8.574084520339966
+sudoku-0149,25,SAT,Dynamic largest individual sum,40,19,9.096830129623413
+sudoku-0150,25,SAT,Random,6,0,8.92246127128601
+sudoku-0150,25,SAT,Two-Sided Jeroslow-Wang,9,0,9.2085542678833
+sudoku-0150,25,SAT,Dynamic largest individual sum,125,78,13.206546783447266
+sudoku-0151,25,SAT,Random,21,0,10.69996953010559
+sudoku-0151,25,SAT,Two-Sided Jeroslow-Wang,9,0,9.415680646896362
+sudoku-0151,25,SAT,Dynamic largest individual sum,1149,1086,56.81898760795593
+sudoku-0152,25,SAT,Random,7,1,8.707645416259766
+sudoku-0152,25,SAT,Two-Sided Jeroslow-Wang,9,1,8.664627313613892
+sudoku-0152,25,SAT,Dynamic largest individual sum,72,41,10.02836298942566
+sudoku-0153,25,SAT,Random,10,5,9.183214664459229
+sudoku-0153,25,SAT,Two-Sided Jeroslow-Wang,6,1,8.553046941757202
+sudoku-0153,25,SAT,Dynamic largest individual sum,593,574,36.48416018486023
+sudoku-0154,25,SAT,Random,23,11,9.828560829162598
+sudoku-0154,25,SAT,Two-Sided Jeroslow-Wang,6,0,9.02138090133667
+sudoku-0154,25,SAT,Dynamic largest individual sum,108,63,11.845491647720337
+sudoku-0155,25,SAT,Random,8,0,8.528552293777466
+sudoku-0155,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.361930847167969
+sudoku-0155,25,SAT,Dynamic largest individual sum,42,15,9.035664796829224
+sudoku-0156,25,SAT,Random,10,0,9.250637769699097
+sudoku-0156,25,SAT,Two-Sided Jeroslow-Wang,12,1,9.925062656402588
+sudoku-0156,25,SAT,Dynamic largest individual sum,554,517,30.40557050704956
+sudoku-0157,25,SAT,Random,9,1,9.24799108505249
+sudoku-0157,25,SAT,Two-Sided Jeroslow-Wang,35,25,10.748625755310059
+sudoku-0157,25,SAT,Dynamic largest individual sum,365,314,23.402446746826172
+sudoku-0158,25,SAT,Random,8,1,9.162323474884033
+sudoku-0158,25,SAT,Two-Sided Jeroslow-Wang,8,1,8.828785181045532
+sudoku-0158,25,SAT,Dynamic largest individual sum,160,126,14.341992855072021
+sudoku-0159,25,SAT,Random,43,31,12.444022178649902
+sudoku-0159,25,SAT,Two-Sided Jeroslow-Wang,6,0,9.091950416564941
+sudoku-0159,25,SAT,Dynamic largest individual sum,1667,1624,88.43095707893372
+sudoku-0160,25,SAT,Random,11,1,8.726581335067749
+sudoku-0160,25,SAT,Two-Sided Jeroslow-Wang,8,1,8.580025434494019
+sudoku-0160,25,SAT,Dynamic largest individual sum,84,55,10.264033794403076
+sudoku-0161,25,SAT,Random,6,0,8.852863550186157
+sudoku-0161,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.751208543777466
+sudoku-0161,25,SAT,Dynamic largest individual sum,140,106,11.829835176467896
+sudoku-0162,25,SAT,Random,7,1,8.715101480484009
+sudoku-0162,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.473530530929565
+sudoku-0162,25,SAT,Dynamic largest individual sum,45,25,9.12739109992981
+sudoku-0163,25,SAT,Random,25,5,10.031999826431274
+sudoku-0163,25,SAT,Two-Sided Jeroslow-Wang,7,1,9.218540906906128
+sudoku-0163,25,SAT,Dynamic largest individual sum,544,502,28.542916774749756
+sudoku-0164,25,SAT,Random,21,8,10.277490854263306
+sudoku-0164,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.71588397026062
+sudoku-0164,25,SAT,Dynamic largest individual sum,153,117,13.616681337356567
+sudoku-0165,25,SAT,Random,20,0,10.3954336643219
+sudoku-0165,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.958353757858276
+sudoku-0165,25,SAT,Dynamic largest individual sum,508,460,28.868473052978516
+sudoku-0166,25,SAT,Random,27,17,12.984650373458862
+sudoku-0166,25,SAT,Two-Sided Jeroslow-Wang,19,15,10.349364042282104
+sudoku-0166,25,SAT,Dynamic largest individual sum,536,468,34.30806803703308
+sudoku-0167,25,SAT,Random,7,1,8.801209211349487
+sudoku-0167,25,SAT,Two-Sided Jeroslow-Wang,2,0,8.546570539474487
+sudoku-0167,25,SAT,Dynamic largest individual sum,128,101,12.347663164138794
+sudoku-0168,25,SAT,Random,11,0,10.073997735977173
+sudoku-0168,25,SAT,Two-Sided Jeroslow-Wang,12,3,10.654580354690552
+sudoku-0168,25,SAT,Dynamic largest individual sum,268,213,23.78980803489685
+sudoku-0169,25,SAT,Random,13,0,10.02756667137146
+sudoku-0169,25,SAT,Two-Sided Jeroslow-Wang,11,2,9.838979482650757
+sudoku-0169,25,SAT,Dynamic largest individual sum,1035,979,54.82775354385376
+sudoku-0170,25,SAT,Random,13,0,9.417136192321777
+sudoku-0170,25,SAT,Two-Sided Jeroslow-Wang,7,0,9.050902128219604
+sudoku-0170,25,SAT,Dynamic largest individual sum,244,196,17.732667922973633
+sudoku-0171,25,SAT,Random,10,0,9.114853858947754
+sudoku-0171,25,SAT,Two-Sided Jeroslow-Wang,7,0,8.934839725494385
+sudoku-0171,25,SAT,Dynamic largest individual sum,143,94,13.322969675064087
+sudoku-0172,25,SAT,Random,30,16,11.187949895858765
+sudoku-0172,25,SAT,Two-Sided Jeroslow-Wang,33,27,14.017030000686646
+sudoku-0172,25,SAT,Dynamic largest individual sum,132,75,15.3184335231781
+sudoku-0173,25,SAT,Random,10,0,9.074406862258911
+sudoku-0173,25,SAT,Two-Sided Jeroslow-Wang,7,0,8.973385572433472
+sudoku-0173,25,SAT,Dynamic largest individual sum,74,29,11.113639116287231
+sudoku-0174,25,SAT,Random,9,0,9.142909526824951
+sudoku-0174,25,SAT,Two-Sided Jeroslow-Wang,6,0,8.974055528640747
+sudoku-0174,25,SAT,Dynamic largest individual sum,358,314,20.16835618019104
+sudoku-0175,25,SAT,Random,17,6,9.048419713973999
+sudoku-0175,25,SAT,Two-Sided Jeroslow-Wang,13,2,9.098434925079346
+sudoku-0175,25,SAT,Dynamic largest individual sum,94,67,11.314651012420654
+sudoku-0176,25,SAT,Random,12,7,9.13555645942688
+sudoku-0176,25,SAT,Two-Sided Jeroslow-Wang,7,3,8.73117470741272
+sudoku-0176,25,SAT,Dynamic largest individual sum,69,35,10.126105785369873
+sudoku-0177,25,SAT,Random,139,133,21.052146911621094
+sudoku-0177,25,SAT,Two-Sided Jeroslow-Wang,7,2,9.774606466293335
+sudoku-0177,25,SAT,Dynamic largest individual sum,904,876,49.88279056549072
+sudoku-0178,25,SAT,Random,6,0,9.059105634689331
+sudoku-0178,25,SAT,Two-Sided Jeroslow-Wang,11,0,9.771933317184448
+sudoku-0178,25,SAT,Dynamic largest individual sum,501,446,33.28848338127136
+sudoku-0179,25,SAT,Random,9,1,8.611988067626953
+sudoku-0179,25,SAT,Two-Sided Jeroslow-Wang,1,0,8.329425573348999
+sudoku-0179,25,SAT,Dynamic largest individual sum,60,41,9.430860042572021
+sudoku-0180,25,SAT,Random,15,3,9.559034824371338
+sudoku-0180,25,SAT,Two-Sided Jeroslow-Wang,7,1,9.00486946105957
+sudoku-0180,25,SAT,Dynamic largest individual sum,77,41,10.581227779388428
+sudoku-0181,25,SAT,Random,57,42,14.176938533782959
+sudoku-0181,25,SAT,Two-Sided Jeroslow-Wang,34,17,13.033249378204346
+sudoku-0181,25,SAT,Dynamic largest individual sum,395,338,27.536696672439575
+sudoku-0182,25,SAT,Random,6,0,8.784009456634521
+sudoku-0182,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.530032396316528
+sudoku-0182,25,SAT,Dynamic largest individual sum,54,23,9.42357349395752
+sudoku-0183,25,SAT,Random,7,0,8.959763288497925
+sudoku-0183,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.758694648742676
+sudoku-0183,25,SAT,Dynamic largest individual sum,61,31,9.819830179214478
+sudoku-0184,25,SAT,Random,2,0,8.583108186721802
+sudoku-0184,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.462502241134644
+sudoku-0184,25,SAT,Dynamic largest individual sum,67,27,9.957555055618286
+sudoku-0185,25,SAT,Random,15,0,9.040914535522461
+sudoku-0185,25,SAT,Two-Sided Jeroslow-Wang,13,4,8.934358596801758
+sudoku-0185,25,SAT,Dynamic largest individual sum,100,63,11.743582248687744
+sudoku-0186,25,SAT,Random,12,0,9.336737394332886
+sudoku-0186,25,SAT,Two-Sided Jeroslow-Wang,9,0,9.141485691070557
+sudoku-0186,25,SAT,Dynamic largest individual sum,97,41,11.79757833480835
+sudoku-0187,25,SAT,Random,4,0,8.59028935432434
+sudoku-0187,25,SAT,Two-Sided Jeroslow-Wang,7,0,8.795429468154907
+sudoku-0187,25,SAT,Dynamic largest individual sum,100,79,12.474499464035034
+sudoku-0188,25,SAT,Random,10,1,8.897272825241089
+sudoku-0188,25,SAT,Two-Sided Jeroslow-Wang,6,0,8.867810249328613
+sudoku-0188,25,SAT,Dynamic largest individual sum,71,31,10.20900845527649
+sudoku-0189,25,SAT,Random,10,2,9.230561017990112
+sudoku-0189,25,SAT,Two-Sided Jeroslow-Wang,6,0,9.129998922348022
+sudoku-0189,25,SAT,Dynamic largest individual sum,103,61,13.200656652450562
+sudoku-0190,25,SAT,Random,173,159,31.947368144989014
+sudoku-0190,25,SAT,Two-Sided Jeroslow-Wang,9,2,10.532490968704224
+sudoku-0190,25,SAT,Dynamic largest individual sum,643,588,40.12227463722229
+sudoku-0191,25,SAT,Random,11,1,9.284588813781738
+sudoku-0191,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.910327911376953
+sudoku-0191,25,SAT,Dynamic largest individual sum,203,179,15.477909088134766
+sudoku-0192,25,SAT,Random,23,6,10.376495838165283
+sudoku-0192,25,SAT,Two-Sided Jeroslow-Wang,19,4,9.757963418960571
+sudoku-0192,25,SAT,Dynamic largest individual sum,186,141,15.049795866012573
+sudoku-0193,25,SAT,Random,8,0,8.900091886520386
+sudoku-0193,25,SAT,Two-Sided Jeroslow-Wang,9,1,8.937341928482056
+sudoku-0193,25,SAT,Dynamic largest individual sum,255,224,17.572962045669556
+sudoku-0194,25,SAT,Random,13,2,9.309030532836914
+sudoku-0194,25,SAT,Two-Sided Jeroslow-Wang,3,1,8.715161561965942
+sudoku-0194,25,SAT,Dynamic largest individual sum,290,271,18.70229935646057
+sudoku-0195,25,SAT,Random,17,1,8.790732383728027
+sudoku-0195,25,SAT,Two-Sided Jeroslow-Wang,6,0,8.644633531570435
+sudoku-0195,25,SAT,Dynamic largest individual sum,71,45,10.24426531791687
+sudoku-0196,25,SAT,Random,4,0,8.69534158706665
+sudoku-0196,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.440509557723999
+sudoku-0196,25,SAT,Dynamic largest individual sum,765,754,34.10517406463623
+sudoku-0197,25,SAT,Random,15,0,10.029114246368408
+sudoku-0197,25,SAT,Two-Sided Jeroslow-Wang,6,0,9.123493671417236
+sudoku-0197,25,SAT,Dynamic largest individual sum,306,246,22.130291223526
+sudoku-0198,25,SAT,Random,15,0,9.94642686843872
+sudoku-0198,25,SAT,Two-Sided Jeroslow-Wang,5,0,9.222540855407715
+sudoku-0198,25,SAT,Dynamic largest individual sum,186,149,17.72429847717285
+sudoku-0199,25,SAT,Random,23,2,10.44698429107666
+sudoku-0199,25,SAT,Two-Sided Jeroslow-Wang,9,2,9.171505451202393
+sudoku-0199,25,SAT,Dynamic largest individual sum,1391,1352,88.77405905723572
+sudoku-0200,25,SAT,Random,3,0,8.640033960342407
+sudoku-0200,25,SAT,Two-Sided Jeroslow-Wang,7,0,8.856783628463745
+sudoku-0200,25,SAT,Dynamic largest individual sum,95,69,11.382261514663696
+sudoku-0201,25,SAT,Random,8,0,9.003856420516968
+sudoku-0201,25,SAT,Two-Sided Jeroslow-Wang,12,4,9.424185752868652
+sudoku-0201,25,SAT,Dynamic largest individual sum,90,45,11.586874961853027
+sudoku-0202,25,SAT,Random,26,9,10.988872051239014
+sudoku-0202,25,SAT,Two-Sided Jeroslow-Wang,11,1,9.511268138885498
+sudoku-0202,25,SAT,Dynamic largest individual sum,466,433,30.376647472381592
+sudoku-0203,25,SAT,Random,3,0,8.595976114273071
+sudoku-0203,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.688685894012451
+sudoku-0203,25,SAT,Dynamic largest individual sum,82,61,10.449571132659912
+sudoku-0204,25,SAT,Random,1,0,8.270254850387573
+sudoku-0204,25,SAT,Two-Sided Jeroslow-Wang,4,1,8.235375165939331
+sudoku-0204,25,SAT,Dynamic largest individual sum,20,5,8.27943468093872
+sudoku-0205,25,SAT,Random,3,0,8.813023328781128
+sudoku-0205,25,SAT,Two-Sided Jeroslow-Wang,8,5,9.099974870681763
+sudoku-0205,25,SAT,Dynamic largest individual sum,73,37,10.555952310562134
+sudoku-0206,25,SAT,Random,25,2,11.64536428451538
+sudoku-0206,25,SAT,Two-Sided Jeroslow-Wang,16,2,10.411373376846313
+sudoku-0206,25,SAT,Dynamic largest individual sum,148,87,17.640066146850586
+sudoku-0207,25,SAT,Random,13,1,9.931432485580444
+sudoku-0207,25,SAT,Two-Sided Jeroslow-Wang,16,1,9.785133838653564
+sudoku-0207,25,SAT,Dynamic largest individual sum,1079,1040,60.66256618499756
+sudoku-0208,25,SAT,Random,13,3,8.747344017028809
+sudoku-0208,25,SAT,Two-Sided Jeroslow-Wang,13,5,8.960049152374268
+sudoku-0208,25,SAT,Dynamic largest individual sum,76,63,9.965600967407227
+sudoku-0209,25,SAT,Random,6,1,8.664705991744995
+sudoku-0209,25,SAT,Two-Sided Jeroslow-Wang,10,3,8.802743434906006
+sudoku-0209,25,SAT,Dynamic largest individual sum,63,35,9.643161058425903
+sudoku-0210,25,SAT,Random,2,0,8.48151707649231
+sudoku-0210,25,SAT,Two-Sided Jeroslow-Wang,1,0,8.396458864212036
+sudoku-0210,25,SAT,Dynamic largest individual sum,8,3,8.495645523071289
+sudoku-0211,25,SAT,Random,25,3,9.882464408874512
+sudoku-0211,25,SAT,Two-Sided Jeroslow-Wang,8,0,8.932358503341675
+sudoku-0211,25,SAT,Dynamic largest individual sum,1359,1327,64.71733117103577
+sudoku-0212,25,SAT,Random,3,0,8.67818546295166
+sudoku-0212,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.56728458404541
+sudoku-0212,25,SAT,Dynamic largest individual sum,51,9,9.527945518493652
+sudoku-0213,25,SAT,Random,29,20,10.01768970489502
+sudoku-0213,25,SAT,Two-Sided Jeroslow-Wang,5,1,8.488041400909424
+sudoku-0213,25,SAT,Dynamic largest individual sum,299,266,18.07147240638733
+sudoku-0214,25,SAT,Random,14,1,9.777318716049194
+sudoku-0214,25,SAT,Two-Sided Jeroslow-Wang,13,3,9.635357141494751
+sudoku-0214,25,SAT,Dynamic largest individual sum,673,628,34.63184881210327
+sudoku-0215,25,SAT,Random,49,33,14.773855924606323
+sudoku-0215,25,SAT,Two-Sided Jeroslow-Wang,13,0,9.579295873641968
+sudoku-0215,25,SAT,Dynamic largest individual sum,230,183,21.27304983139038
+sudoku-0216,25,SAT,Random,6,0,9.06941294670105
+sudoku-0216,25,SAT,Two-Sided Jeroslow-Wang,14,0,9.52926230430603
+sudoku-0216,25,SAT,Dynamic largest individual sum,965,930,42.45566940307617
+sudoku-0217,25,SAT,Random,5,0,8.438134908676147
+sudoku-0217,25,SAT,Two-Sided Jeroslow-Wang,6,1,8.349904775619507
+sudoku-0217,25,SAT,Dynamic largest individual sum,26,1,8.53778886795044
+sudoku-0218,25,SAT,Random,7,1,8.566961765289307
+sudoku-0218,25,SAT,Two-Sided Jeroslow-Wang,2,0,8.297886848449707
+sudoku-0218,25,SAT,Dynamic largest individual sum,26,9,8.722823858261108
+sudoku-0219,25,SAT,Random,9,1,8.66658902168274
+sudoku-0219,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.394474744796753
+sudoku-0219,25,SAT,Dynamic largest individual sum,81,55,10.587624549865723
+sudoku-0220,25,SAT,Random,11,1,9.498684406280518
+sudoku-0220,25,SAT,Two-Sided Jeroslow-Wang,11,2,10.068641424179077
+sudoku-0220,25,SAT,Dynamic largest individual sum,4633,4594,217.15055656433105
+sudoku-0221,25,SAT,Random,17,2,9.775381326675415
+sudoku-0221,25,SAT,Two-Sided Jeroslow-Wang,12,2,9.383678674697876
+sudoku-0221,25,SAT,Dynamic largest individual sum,570,545,28.31687903404236
+sudoku-0222,25,SAT,Random,8,0,8.948271751403809
+sudoku-0222,25,SAT,Two-Sided Jeroslow-Wang,9,2,9.197044372558594
+sudoku-0222,25,SAT,Dynamic largest individual sum,97,62,11.393869161605835
+sudoku-0223,25,SAT,Random,5,0,8.548404693603516
+sudoku-0223,25,SAT,Two-Sided Jeroslow-Wang,3,1,8.520544528961182
+sudoku-0223,25,SAT,Dynamic largest individual sum,49,39,9.388493776321411
+sudoku-0224,25,SAT,Random,11,5,9.128377199172974
+sudoku-0224,25,SAT,Two-Sided Jeroslow-Wang,9,1,8.842771053314209
+sudoku-0224,25,SAT,Dynamic largest individual sum,78,49,10.907888650894165
+sudoku-0225,25,SAT,Random,11,0,9.07657241821289
+sudoku-0225,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.770300388336182
+sudoku-0225,25,SAT,Dynamic largest individual sum,74,37,10.682695627212524
+sudoku-0226,25,SAT,Random,6,0,9.20724892616272
+sudoku-0226,25,SAT,Two-Sided Jeroslow-Wang,5,0,9.381675004959106
+sudoku-0226,25,SAT,Dynamic largest individual sum,314,266,20.30073308944702
+sudoku-0227,25,SAT,Random,17,2,10.538383483886719
+sudoku-0227,25,SAT,Two-Sided Jeroslow-Wang,13,2,9.809478998184204
+sudoku-0227,25,SAT,Dynamic largest individual sum,186,128,16.824682474136353
+sudoku-0228,25,SAT,Random,30,14,10.655004501342773
+sudoku-0228,25,SAT,Two-Sided Jeroslow-Wang,15,3,10.251270532608032
+sudoku-0228,25,SAT,Dynamic largest individual sum,426,376,26.753998517990112
+sudoku-0229,25,SAT,Random,10,3,9.023869752883911
+sudoku-0229,25,SAT,Two-Sided Jeroslow-Wang,14,5,9.083465814590454
+sudoku-0229,25,SAT,Dynamic largest individual sum,107,83,11.121718645095825
+sudoku-0230,25,SAT,Random,6,0,8.766752243041992
+sudoku-0230,25,SAT,Two-Sided Jeroslow-Wang,7,0,8.582608222961426
+sudoku-0230,25,SAT,Dynamic largest individual sum,67,44,9.877714395523071
+sudoku-0231,25,SAT,Random,25,4,9.983271360397339
+sudoku-0231,25,SAT,Two-Sided Jeroslow-Wang,12,1,9.33314061164856
+sudoku-0231,25,SAT,Dynamic largest individual sum,98,63,12.270971536636353
+sudoku-0232,25,SAT,Random,11,0,10.419933557510376
+sudoku-0232,25,SAT,Two-Sided Jeroslow-Wang,13,2,9.56628680229187
+sudoku-0232,25,SAT,Dynamic largest individual sum,419,392,20.844772338867188
+sudoku-0233,25,SAT,Random,29,12,10.125591516494751
+sudoku-0233,25,SAT,Two-Sided Jeroslow-Wang,6,0,9.016416549682617
+sudoku-0233,25,SAT,Dynamic largest individual sum,134,88,12.839927673339844
+sudoku-0234,25,SAT,Random,17,7,10.27194356918335
+sudoku-0234,25,SAT,Two-Sided Jeroslow-Wang,29,15,11.890854120254517
+sudoku-0234,25,SAT,Dynamic largest individual sum,478,451,31.956368923187256
+sudoku-0235,25,SAT,Random,6,0,8.835217714309692
+sudoku-0235,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.730193376541138
+sudoku-0235,25,SAT,Dynamic largest individual sum,163,128,13.180591106414795
+sudoku-0236,25,SAT,Random,13,0,9.518253087997437
+sudoku-0236,25,SAT,Two-Sided Jeroslow-Wang,7,1,9.298096418380737
+sudoku-0236,25,SAT,Dynamic largest individual sum,813,793,39.04626107215881
+sudoku-0237,25,SAT,Random,9,0,8.966324806213379
+sudoku-0237,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.501551151275635
+sudoku-0237,25,SAT,Dynamic largest individual sum,74,29,10.763659954071045
+sudoku-0238,25,SAT,Random,27,11,10.817578077316284
+sudoku-0238,25,SAT,Two-Sided Jeroslow-Wang,18,9,10.421144485473633
+sudoku-0238,25,SAT,Dynamic largest individual sum,2937,2905,143.1322205066681
+sudoku-0239,25,SAT,Random,5,0,8.561790466308594
+sudoku-0239,25,SAT,Two-Sided Jeroslow-Wang,2,0,8.471510887145996
+sudoku-0239,25,SAT,Dynamic largest individual sum,46,19,9.358668804168701
+sudoku-0240,25,SAT,Random,42,37,12.77222466468811
+sudoku-0240,25,SAT,Two-Sided Jeroslow-Wang,5,1,9.027926921844482
+sudoku-0240,25,SAT,Dynamic largest individual sum,146,141,17.1043484210968
+sudoku-0241,25,SAT,Random,9,1,8.872447490692139
+sudoku-0241,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.723189353942871
+sudoku-0241,25,SAT,Dynamic largest individual sum,44,13,9.56668996810913
+sudoku-0242,25,SAT,Random,5,1,9.050652503967285
+sudoku-0242,25,SAT,Two-Sided Jeroslow-Wang,13,8,9.96458911895752
+sudoku-0242,25,SAT,Dynamic largest individual sum,175,132,13.98167109489441
+sudoku-0243,25,SAT,Random,13,1,10.110218286514282
+sudoku-0243,25,SAT,Two-Sided Jeroslow-Wang,8,0,9.500218868255615
+sudoku-0243,25,SAT,Dynamic largest individual sum,1703,1658,80.3184380531311
+sudoku-0244,25,SAT,Random,18,1,10.533951997756958
+sudoku-0244,25,SAT,Two-Sided Jeroslow-Wang,18,4,11.718831539154053
+sudoku-0244,25,SAT,Dynamic largest individual sum,444,386,31.39105463027954
+sudoku-0245,25,SAT,Random,42,33,14.799490451812744
+sudoku-0245,25,SAT,Two-Sided Jeroslow-Wang,7,0,9.31413722038269
+sudoku-0245,25,SAT,Dynamic largest individual sum,260,223,25.266825199127197
+sudoku-0246,25,SAT,Random,20,4,9.66328239440918
+sudoku-0246,25,SAT,Two-Sided Jeroslow-Wang,8,4,9.029425621032715
+sudoku-0246,25,SAT,Dynamic largest individual sum,87,51,11.441038370132446
+sudoku-0247,25,SAT,Random,5,1,8.820724487304688
+sudoku-0247,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.59609842300415
+sudoku-0247,25,SAT,Dynamic largest individual sum,82,35,10.36610460281372
+sudoku-0248,25,SAT,Random,13,0,9.384679555892944
+sudoku-0248,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.748206615447998
+sudoku-0248,25,SAT,Dynamic largest individual sum,59,9,10.038078784942627
+sudoku-0249,25,SAT,Random,27,12,11.24374532699585
+sudoku-0249,25,SAT,Two-Sided Jeroslow-Wang,12,1,9.361133813858032
+sudoku-0249,25,SAT,Dynamic largest individual sum,326,280,23.057809829711914
+sudoku-0250,25,SAT,Random,12,4,9.619492530822754
+sudoku-0250,25,SAT,Two-Sided Jeroslow-Wang,4,0,9.023421049118042
+sudoku-0250,25,SAT,Dynamic largest individual sum,181,157,13.74191403388977
+sudoku-0251,25,SAT,Random,28,21,11.739775657653809
+sudoku-0251,25,SAT,Two-Sided Jeroslow-Wang,15,2,10.162244319915771
+sudoku-0251,25,SAT,Dynamic largest individual sum,1636,1587,81.12496638298035
+sudoku-0252,25,SAT,Random,13,2,8.799784660339355
+sudoku-0252,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.650637149810791
+sudoku-0252,25,SAT,Dynamic largest individual sum,65,39,9.846598863601685
+sudoku-0253,25,SAT,Random,12,1,9.759764909744263
+sudoku-0253,25,SAT,Two-Sided Jeroslow-Wang,20,6,10.208722591400146
+sudoku-0253,25,SAT,Dynamic largest individual sum,395,356,22.89637565612793
+sudoku-0254,25,SAT,Random,11,3,9.031429052352905
+sudoku-0254,25,SAT,Two-Sided Jeroslow-Wang,5,2,8.862975120544434
+sudoku-0254,25,SAT,Dynamic largest individual sum,50,37,9.787618398666382
+sudoku-0255,25,SAT,Random,14,0,10.562873840332031
+sudoku-0255,25,SAT,Two-Sided Jeroslow-Wang,19,10,11.28250503540039
+sudoku-0255,25,SAT,Dynamic largest individual sum,1631,1588,90.02121067047119
+sudoku-0256,25,SAT,Random,64,44,13.436163425445557
+sudoku-0256,25,SAT,Two-Sided Jeroslow-Wang,8,2,9.462212800979614
+sudoku-0256,25,SAT,Dynamic largest individual sum,493,422,32.64587330818176
+sudoku-0257,25,SAT,Random,4,0,8.847196817398071
+sudoku-0257,25,SAT,Two-Sided Jeroslow-Wang,1,0,8.839792013168335
+sudoku-0257,25,SAT,Dynamic largest individual sum,130,87,14.642539262771606
+sudoku-0258,25,SAT,Random,25,9,10.333659887313843
+sudoku-0258,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.79075837135315
+sudoku-0258,25,SAT,Dynamic largest individual sum,527,486,30.11055612564087
+sudoku-0259,25,SAT,Random,8,1,9.825435638427734
+sudoku-0259,25,SAT,Two-Sided Jeroslow-Wang,11,1,9.550253629684448
+sudoku-0259,25,SAT,Dynamic largest individual sum,486,437,30.402312517166138
+sudoku-0260,25,SAT,Random,10,1,8.974377870559692
+sudoku-0260,25,SAT,Two-Sided Jeroslow-Wang,13,8,8.978869199752808
+sudoku-0260,25,SAT,Dynamic largest individual sum,78,59,10.300636053085327
+sudoku-0261,25,SAT,Random,8,0,9.376771688461304
+sudoku-0261,25,SAT,Two-Sided Jeroslow-Wang,6,0,9.269596338272095
+sudoku-0261,25,SAT,Dynamic largest individual sum,328,262,21.3601815700531
+sudoku-0262,25,SAT,Random,19,6,9.524774074554443
+sudoku-0262,25,SAT,Two-Sided Jeroslow-Wang,5,1,8.968361616134644
+sudoku-0262,25,SAT,Dynamic largest individual sum,250,210,16.609379053115845
+sudoku-0263,25,SAT,Random,26,8,10.110322713851929
+sudoku-0263,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.901808023452759
+sudoku-0263,25,SAT,Dynamic largest individual sum,62,31,10.078519821166992
+sudoku-0264,25,SAT,Random,31,13,10.892734289169312
+sudoku-0264,25,SAT,Two-Sided Jeroslow-Wang,5,0,9.321742057800293
+sudoku-0264,25,SAT,Dynamic largest individual sum,339,294,21.570932388305664
+sudoku-0265,25,SAT,Random,11,1,9.246025323867798
+sudoku-0265,25,SAT,Two-Sided Jeroslow-Wang,7,0,9.223793029785156
+sudoku-0265,25,SAT,Dynamic largest individual sum,195,154,15.67838191986084
+sudoku-0266,25,SAT,Random,12,0,9.677449226379395
+sudoku-0266,25,SAT,Two-Sided Jeroslow-Wang,12,0,9.33860468864441
+sudoku-0266,25,SAT,Dynamic largest individual sum,272,217,20.25251340866089
+sudoku-0267,25,SAT,Random,8,0,9.095094203948975
+sudoku-0267,25,SAT,Two-Sided Jeroslow-Wang,10,0,9.167675495147705
+sudoku-0267,25,SAT,Dynamic largest individual sum,429,390,22.555846214294434
+sudoku-0268,25,SAT,Random,34,19,10.970786333084106
+sudoku-0268,25,SAT,Two-Sided Jeroslow-Wang,12,2,9.73390793800354
+sudoku-0268,25,SAT,Dynamic largest individual sum,298,243,22.49037528038025
+sudoku-0269,25,SAT,Random,21,9,10.993699789047241
+sudoku-0269,25,SAT,Two-Sided Jeroslow-Wang,5,0,9.39568567276001
+sudoku-0269,25,SAT,Dynamic largest individual sum,1231,1203,65.57370090484619
+sudoku-0270,25,SAT,Random,10,0,9.175755500793457
+sudoku-0270,25,SAT,Two-Sided Jeroslow-Wang,12,3,10.123467445373535
+sudoku-0270,25,SAT,Dynamic largest individual sum,173,112,16.762236833572388
+sudoku-0271,25,SAT,Random,8,0,8.376829385757446
+sudoku-0271,25,SAT,Two-Sided Jeroslow-Wang,7,1,8.276371240615845
+sudoku-0271,25,SAT,Dynamic largest individual sum,76,43,10.222097873687744
+sudoku-0272,25,SAT,Random,11,2,9.357616901397705
+sudoku-0272,25,SAT,Two-Sided Jeroslow-Wang,12,4,9.25306487083435
+sudoku-0272,25,SAT,Dynamic largest individual sum,243,221,17.025052070617676
+sudoku-0273,25,SAT,Random,9,0,8.979769706726074
+sudoku-0273,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.88982605934143
+sudoku-0273,25,SAT,Dynamic largest individual sum,58,23,9.80897855758667
+sudoku-0274,25,SAT,Random,5,0,8.778815746307373
+sudoku-0274,25,SAT,Two-Sided Jeroslow-Wang,4,1,8.703175067901611
+sudoku-0274,25,SAT,Dynamic largest individual sum,53,25,9.774889945983887
+sudoku-0275,25,SAT,Random,5,0,8.66041374206543
+sudoku-0275,25,SAT,Two-Sided Jeroslow-Wang,2,0,8.366936206817627
+sudoku-0275,25,SAT,Dynamic largest individual sum,28,5,8.712153196334839
+sudoku-0276,25,SAT,Random,21,3,11.728197813034058
+sudoku-0276,25,SAT,Two-Sided Jeroslow-Wang,13,4,10.983786344528198
+sudoku-0276,25,SAT,Dynamic largest individual sum,2616,2586,140.5494396686554
+sudoku-0277,25,SAT,Random,9,1,8.95772647857666
+sudoku-0277,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.311896562576294
+sudoku-0277,25,SAT,Dynamic largest individual sum,79,47,10.567949056625366
+sudoku-0278,25,SAT,Random,10,0,8.58561110496521
+sudoku-0278,25,SAT,Two-Sided Jeroslow-Wang,8,0,8.55156922340393
+sudoku-0278,25,SAT,Dynamic largest individual sum,93,57,11.428945064544678
+sudoku-0279,25,SAT,Random,7,0,8.884793043136597
+sudoku-0279,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.845797538757324
+sudoku-0279,25,SAT,Dynamic largest individual sum,67,27,10.624385595321655
+sudoku-0280,25,SAT,Random,9,0,8.886708736419678
+sudoku-0280,25,SAT,Two-Sided Jeroslow-Wang,12,2,9.371648788452148
+sudoku-0280,25,SAT,Dynamic largest individual sum,496,450,32.72078275680542
+sudoku-0281,25,SAT,Random,15,0,9.684791803359985
+sudoku-0281,25,SAT,Two-Sided Jeroslow-Wang,13,7,9.85399079322815
+sudoku-0281,25,SAT,Dynamic largest individual sum,155,77,15.182338953018188
+sudoku-0282,25,SAT,Random,27,14,9.928891658782959
+sudoku-0282,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.536534547805786
+sudoku-0282,25,SAT,Dynamic largest individual sum,180,142,14.273581981658936
+sudoku-0283,25,SAT,Random,9,0,8.876422882080078
+sudoku-0283,25,SAT,Two-Sided Jeroslow-Wang,6,1,9.093970537185669
+sudoku-0283,25,SAT,Dynamic largest individual sum,101,47,12.41130542755127
+sudoku-0284,25,SAT,Random,7,0,8.445373773574829
+sudoku-0284,25,SAT,Two-Sided Jeroslow-Wang,6,2,8.485021352767944
+sudoku-0284,25,SAT,Dynamic largest individual sum,53,27,9.384004831314087
+sudoku-0285,25,SAT,Random,7,1,8.369317531585693
+sudoku-0285,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.592617988586426
+sudoku-0285,25,SAT,Dynamic largest individual sum,21,9,8.83213186264038
+sudoku-0286,25,SAT,Random,40,30,11.287135124206543
+sudoku-0286,25,SAT,Two-Sided Jeroslow-Wang,5,1,9.110985040664673
+sudoku-0286,25,SAT,Dynamic largest individual sum,91,47,11.657015562057495
+sudoku-0287,25,SAT,Random,15,4,10.3500075340271
+sudoku-0287,25,SAT,Two-Sided Jeroslow-Wang,8,4,9.90954041481018
+sudoku-0287,25,SAT,Dynamic largest individual sum,2070,2055,108.40311813354492
+sudoku-0288,25,SAT,Random,7,0,9.340056657791138
+sudoku-0288,25,SAT,Two-Sided Jeroslow-Wang,9,0,8.895331621170044
+sudoku-0288,25,SAT,Dynamic largest individual sum,104,49,12.145776987075806
+sudoku-0289,25,SAT,Random,29,17,10.921196699142456
+sudoku-0289,25,SAT,Two-Sided Jeroslow-Wang,6,1,8.834288835525513
+sudoku-0289,25,SAT,Dynamic largest individual sum,157,111,14.788146734237671
+sudoku-0290,25,SAT,Random,6,0,9.132890701293945
+sudoku-0290,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.996861934661865
+sudoku-0290,25,SAT,Dynamic largest individual sum,241,200,18.82419729232788
+sudoku-0291,25,SAT,Random,16,3,9.721347570419312
+sudoku-0291,25,SAT,Two-Sided Jeroslow-Wang,21,9,10.224774360656738
+sudoku-0291,25,SAT,Dynamic largest individual sum,108,63,12.516657590866089
+sudoku-0292,25,SAT,Random,17,2,11.606176853179932
+sudoku-0292,25,SAT,Two-Sided Jeroslow-Wang,13,2,10.024633884429932
+sudoku-0292,25,SAT,Dynamic largest individual sum,1701,1656,81.71076917648315
+sudoku-0293,25,SAT,Random,21,8,10.486883401870728
+sudoku-0293,25,SAT,Two-Sided Jeroslow-Wang,21,12,10.253774881362915
+sudoku-0293,25,SAT,Dynamic largest individual sum,144,103,13.471799373626709
+sudoku-0294,25,SAT,Random,14,3,10.092678785324097
+sudoku-0294,25,SAT,Two-Sided Jeroslow-Wang,20,9,10.74012017250061
+sudoku-0294,25,SAT,Dynamic largest individual sum,103,41,12.901515483856201
+sudoku-0295,25,SAT,Random,31,23,10.864141464233398
+sudoku-0295,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.473511219024658
+sudoku-0295,25,SAT,Dynamic largest individual sum,102,61,11.531469583511353
+sudoku-0296,25,SAT,Random,10,0,9.264246225357056
+sudoku-0296,25,SAT,Two-Sided Jeroslow-Wang,8,0,9.112943887710571
+sudoku-0296,25,SAT,Dynamic largest individual sum,449,402,24.84817361831665
+sudoku-0297,25,SAT,Random,7,0,9.019239664077759
+sudoku-0297,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.938343048095703
+sudoku-0297,25,SAT,Dynamic largest individual sum,124,93,11.917737483978271
+sudoku-0298,25,SAT,Random,14,0,9.491893768310547
+sudoku-0298,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.854779958724976
+sudoku-0298,25,SAT,Dynamic largest individual sum,355,313,25.995731353759766
+sudoku-0299,25,SAT,Random,16,0,9.817912101745605
+sudoku-0299,25,SAT,Two-Sided Jeroslow-Wang,25,11,10.795678615570068
+sudoku-0299,25,SAT,Dynamic largest individual sum,1678,1634,91.37455153465271
+sudoku-0300,25,SAT,Random,9,0,8.591502666473389
+sudoku-0300,25,SAT,Two-Sided Jeroslow-Wang,4,1,8.486656188964844
+sudoku-0300,25,SAT,Dynamic largest individual sum,67,41,9.778255939483643
+sudoku-0301,25,SAT,Random,41,21,12.542088031768799
+sudoku-0301,25,SAT,Two-Sided Jeroslow-Wang,3,0,9.263190984725952
+sudoku-0301,25,SAT,Dynamic largest individual sum,273,221,22.13459086418152
+sudoku-0302,25,SAT,Random,8,0,8.416354894638062
+sudoku-0302,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.397977590560913
+sudoku-0302,25,SAT,Dynamic largest individual sum,110,97,11.499815702438354
+sudoku-0303,25,SAT,Random,3,0,8.642553806304932
+sudoku-0303,25,SAT,Two-Sided Jeroslow-Wang,9,0,8.541081190109253
+sudoku-0303,25,SAT,Dynamic largest individual sum,77,47,10.41077709197998
+sudoku-0304,25,SAT,Random,13,3,9.92856502532959
+sudoku-0304,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.92733383178711
+sudoku-0304,25,SAT,Dynamic largest individual sum,277,247,18.354962587356567
+sudoku-0305,25,SAT,Random,6,0,8.669757843017578
+sudoku-0305,25,SAT,Two-Sided Jeroslow-Wang,7,0,8.903836488723755
+sudoku-0305,25,SAT,Dynamic largest individual sum,363,311,21.072272300720215
+sudoku-0306,25,SAT,Random,28,14,10.025991201400757
+sudoku-0306,25,SAT,Two-Sided Jeroslow-Wang,14,1,9.478224277496338
+sudoku-0306,25,SAT,Dynamic largest individual sum,187,143,16.738824367523193
+sudoku-0307,25,SAT,Random,14,4,9.866377592086792
+sudoku-0307,25,SAT,Two-Sided Jeroslow-Wang,5,1,8.824280261993408
+sudoku-0307,25,SAT,Dynamic largest individual sum,667,624,38.62424635887146
+sudoku-0308,25,SAT,Random,36,24,10.929657459259033
+sudoku-0308,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.642632007598877
+sudoku-0308,25,SAT,Dynamic largest individual sum,111,81,12.388875484466553
+sudoku-0309,25,SAT,Random,6,1,8.400922298431396
+sudoku-0309,25,SAT,Two-Sided Jeroslow-Wang,5,1,8.308392524719238
+sudoku-0309,25,SAT,Dynamic largest individual sum,83,69,10.347075700759888
+sudoku-0310,25,SAT,Random,13,3,9.363041400909424
+sudoku-0310,25,SAT,Two-Sided Jeroslow-Wang,7,3,9.006911039352417
+sudoku-0310,25,SAT,Dynamic largest individual sum,115,59,12.104755640029907
+sudoku-0311,25,SAT,Random,11,0,9.230795860290527
+sudoku-0311,25,SAT,Two-Sided Jeroslow-Wang,7,4,8.914324045181274
+sudoku-0311,25,SAT,Dynamic largest individual sum,88,47,11.467334985733032
+sudoku-0312,25,SAT,Random,7,1,8.811670303344727
+sudoku-0312,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.864176988601685
+sudoku-0312,25,SAT,Dynamic largest individual sum,78,45,10.526174783706665
+sudoku-0313,25,SAT,Random,6,0,8.769166946411133
+sudoku-0313,25,SAT,Two-Sided Jeroslow-Wang,12,1,8.95391035079956
+sudoku-0313,25,SAT,Dynamic largest individual sum,100,53,11.981805086135864
+sudoku-0314,25,SAT,Random,18,2,9.148490190505981
+sudoku-0314,25,SAT,Two-Sided Jeroslow-Wang,9,1,8.727214336395264
+sudoku-0314,25,SAT,Dynamic largest individual sum,392,365,21.298964023590088
+sudoku-0315,25,SAT,Random,7,0,8.848474025726318
+sudoku-0315,25,SAT,Two-Sided Jeroslow-Wang,6,0,8.800411939620972
+sudoku-0315,25,SAT,Dynamic largest individual sum,323,268,21.35687255859375
+sudoku-0316,25,SAT,Random,3,0,8.365403652191162
+sudoku-0316,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.284377813339233
+sudoku-0316,25,SAT,Dynamic largest individual sum,44,29,8.965644836425781
+sudoku-0317,25,SAT,Random,12,1,8.784631729125977
+sudoku-0317,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.510037899017334
+sudoku-0317,25,SAT,Dynamic largest individual sum,152,114,13.242413520812988
+sudoku-0318,25,SAT,Random,10,0,9.017801761627197
+sudoku-0318,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.752208709716797
+sudoku-0318,25,SAT,Dynamic largest individual sum,111,83,11.229692935943604
+sudoku-0319,25,SAT,Random,14,1,9.018349647521973
+sudoku-0319,25,SAT,Two-Sided Jeroslow-Wang,7,0,8.732334613800049
+sudoku-0319,25,SAT,Dynamic largest individual sum,211,166,16.266255378723145
+sudoku-0320,25,SAT,Random,25,7,10.07303261756897
+sudoku-0320,25,SAT,Two-Sided Jeroslow-Wang,16,3,9.545774459838867
+sudoku-0320,25,SAT,Dynamic largest individual sum,220,161,16.421463012695312
+sudoku-0321,25,SAT,Random,25,3,10.832813024520874
+sudoku-0321,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.691685676574707
+sudoku-0321,25,SAT,Dynamic largest individual sum,124,73,14.383338451385498
+sudoku-0322,25,SAT,Random,13,1,9.257067441940308
+sudoku-0322,25,SAT,Two-Sided Jeroslow-Wang,16,5,9.936549425125122
+sudoku-0322,25,SAT,Dynamic largest individual sum,60,0,11.167088985443115
+sudoku-0323,25,SAT,Random,6,0,8.787161588668823
+sudoku-0323,25,SAT,Two-Sided Jeroslow-Wang,13,3,8.996883153915405
+sudoku-0323,25,SAT,Dynamic largest individual sum,51,11,9.632240772247314
+sudoku-0324,25,SAT,Random,29,3,10.965686559677124
+sudoku-0324,25,SAT,Two-Sided Jeroslow-Wang,9,0,9.582296133041382
+sudoku-0324,25,SAT,Dynamic largest individual sum,2392,2344,100.91945123672485
+sudoku-0325,25,SAT,Random,6,0,9.373446702957153
+sudoku-0325,25,SAT,Two-Sided Jeroslow-Wang,17,13,12.419811725616455
+sudoku-0325,25,SAT,Dynamic largest individual sum,634,579,51.35719847679138
+sudoku-0326,25,SAT,Random,5,0,8.650046110153198
+sudoku-0326,25,SAT,Two-Sided Jeroslow-Wang,6,1,8.587591171264648
+sudoku-0326,25,SAT,Dynamic largest individual sum,43,19,9.196159362792969
+sudoku-0327,25,SAT,Random,10,1,8.420419931411743
+sudoku-0327,25,SAT,Two-Sided Jeroslow-Wang,5,1,8.257858276367188
+sudoku-0327,25,SAT,Dynamic largest individual sum,118,100,10.939647436141968
+sudoku-0328,25,SAT,Random,40,31,11.757259607315063
+sudoku-0328,25,SAT,Two-Sided Jeroslow-Wang,18,2,9.563263893127441
+sudoku-0328,25,SAT,Dynamic largest individual sum,118,67,13.1726655960083
+sudoku-0329,25,SAT,Random,11,1,9.080833911895752
+sudoku-0329,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.836328268051147
+sudoku-0329,25,SAT,Dynamic largest individual sum,88,47,11.673002481460571
+sudoku-0330,25,SAT,Random,13,1,9.642265558242798
+sudoku-0330,25,SAT,Two-Sided Jeroslow-Wang,14,4,10.358348608016968
+sudoku-0330,25,SAT,Dynamic largest individual sum,1237,1204,80.99397134780884
+sudoku-0331,25,SAT,Random,27,12,10.966227531433105
+sudoku-0331,25,SAT,Two-Sided Jeroslow-Wang,11,2,9.339126110076904
+sudoku-0331,25,SAT,Dynamic largest individual sum,114,55,13.80988097190857
+sudoku-0332,25,SAT,Random,12,1,10.040624618530273
+sudoku-0332,25,SAT,Two-Sided Jeroslow-Wang,23,16,13.3344886302948
+sudoku-0332,25,SAT,Dynamic largest individual sum,3869,3837,185.93000173568726
+sudoku-0333,25,SAT,Random,10,0,8.865311861038208
+sudoku-0333,25,SAT,Two-Sided Jeroslow-Wang,1,0,8.246371746063232
+sudoku-0333,25,SAT,Dynamic largest individual sum,66,37,9.806553602218628
+sudoku-0334,25,SAT,Random,82,64,15.621655702590942
+sudoku-0334,25,SAT,Two-Sided Jeroslow-Wang,7,0,9.105457782745361
+sudoku-0334,25,SAT,Dynamic largest individual sum,1082,1030,62.97803974151611
+sudoku-0335,25,SAT,Random,31,6,10.627418518066406
+sudoku-0335,25,SAT,Two-Sided Jeroslow-Wang,15,2,9.796951055526733
+sudoku-0335,25,SAT,Dynamic largest individual sum,673,631,38.529348611831665
+sudoku-0336,25,SAT,Random,16,1,9.290966272354126
+sudoku-0336,25,SAT,Two-Sided Jeroslow-Wang,8,0,8.985376358032227
+sudoku-0336,25,SAT,Dynamic largest individual sum,145,99,13.765920639038086
+sudoku-0337,25,SAT,Random,13,0,9.49510145187378
+sudoku-0337,25,SAT,Two-Sided Jeroslow-Wang,5,0,9.06745457649231
+sudoku-0337,25,SAT,Dynamic largest individual sum,344,298,26.02882719039917
+sudoku-0338,25,SAT,Random,15,0,10.063019514083862
+sudoku-0338,25,SAT,Two-Sided Jeroslow-Wang,16,1,10.046204328536987
+sudoku-0338,25,SAT,Dynamic largest individual sum,914,847,42.97859287261963
+sudoku-0339,25,SAT,Random,21,1,9.497293472290039
+sudoku-0339,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.843273639678955
+sudoku-0339,25,SAT,Dynamic largest individual sum,229,188,15.936480045318604
+sudoku-0340,25,SAT,Random,9,1,8.752705335617065
+sudoku-0340,25,SAT,Two-Sided Jeroslow-Wang,6,1,8.611609697341919
+sudoku-0340,25,SAT,Dynamic largest individual sum,62,29,9.625709056854248
+sudoku-0341,25,SAT,Random,22,5,9.342608451843262
+sudoku-0341,25,SAT,Two-Sided Jeroslow-Wang,9,1,8.939842224121094
+sudoku-0341,25,SAT,Dynamic largest individual sum,184,146,14.285309314727783
+sudoku-0342,25,SAT,Random,4,0,8.753690481185913
+sudoku-0342,25,SAT,Two-Sided Jeroslow-Wang,4,1,8.81777548789978
+sudoku-0342,25,SAT,Dynamic largest individual sum,84,51,11.147956371307373
+sudoku-0343,25,SAT,Random,19,0,10.944918870925903
+sudoku-0343,25,SAT,Two-Sided Jeroslow-Wang,21,5,10.732116460800171
+sudoku-0343,25,SAT,Dynamic largest individual sum,310,242,24.78778052330017
+sudoku-0344,25,SAT,Random,17,3,9.451065063476562
+sudoku-0344,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.697842597961426
+sudoku-0344,25,SAT,Dynamic largest individual sum,683,650,37.200143337249756
+sudoku-0345,25,SAT,Random,14,1,9.56180453300476
+sudoku-0345,25,SAT,Two-Sided Jeroslow-Wang,6,0,9.237553834915161
+sudoku-0345,25,SAT,Dynamic largest individual sum,171,125,14.991253137588501
+sudoku-0346,25,SAT,Random,7,0,8.991463899612427
+sudoku-0346,25,SAT,Two-Sided Jeroslow-Wang,42,32,14.400737762451172
+sudoku-0346,25,SAT,Dynamic largest individual sum,214,174,20.075895309448242
+sudoku-0347,25,SAT,Random,98,68,19.55849266052246
+sudoku-0347,25,SAT,Two-Sided Jeroslow-Wang,26,21,13.62366533279419
+sudoku-0347,25,SAT,Dynamic largest individual sum,777,727,45.24996256828308
+sudoku-0348,25,SAT,Random,6,0,8.719300746917725
+sudoku-0348,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.506033182144165
+sudoku-0348,25,SAT,Dynamic largest individual sum,86,56,10.043770790100098
+sudoku-0349,25,SAT,Random,8,0,9.229182481765747
+sudoku-0349,25,SAT,Two-Sided Jeroslow-Wang,4,0,9.09832763671875
+sudoku-0349,25,SAT,Dynamic largest individual sum,107,53,12.419408559799194
+sudoku-0350,25,SAT,Random,10,0,9.27504849433899
+sudoku-0350,25,SAT,Two-Sided Jeroslow-Wang,17,3,10.541458129882812
+sudoku-0350,25,SAT,Dynamic largest individual sum,425,395,28.53817844390869
+sudoku-0351,25,SAT,Random,15,0,9.700522422790527
+sudoku-0351,25,SAT,Two-Sided Jeroslow-Wang,14,3,8.903855085372925
+sudoku-0351,25,SAT,Dynamic largest individual sum,345,295,23.30064821243286
+sudoku-0352,25,SAT,Random,35,12,11.189581155776978
+sudoku-0352,25,SAT,Two-Sided Jeroslow-Wang,12,2,9.825144529342651
+sudoku-0352,25,SAT,Dynamic largest individual sum,198,146,17.234296321868896
+sudoku-0353,25,SAT,Random,18,1,9.25517988204956
+sudoku-0353,25,SAT,Two-Sided Jeroslow-Wang,13,2,9.52325439453125
+sudoku-0353,25,SAT,Dynamic largest individual sum,130,73,14.661211252212524
+sudoku-0354,25,SAT,Random,42,34,11.305445194244385
+sudoku-0354,25,SAT,Two-Sided Jeroslow-Wang,10,2,8.810770034790039
+sudoku-0354,25,SAT,Dynamic largest individual sum,90,55,12.12964653968811
+sudoku-0355,25,SAT,Random,14,1,9.153895616531372
+sudoku-0355,25,SAT,Two-Sided Jeroslow-Wang,4,1,8.54053807258606
+sudoku-0355,25,SAT,Dynamic largest individual sum,90,52,10.890469551086426
+sudoku-0356,25,SAT,Random,13,2,8.703742265701294
+sudoku-0356,25,SAT,Two-Sided Jeroslow-Wang,11,6,8.976887941360474
+sudoku-0356,25,SAT,Dynamic largest individual sum,305,297,16.571352243423462
+sudoku-0357,25,SAT,Random,1,0,8.389837741851807
+sudoku-0357,25,SAT,Two-Sided Jeroslow-Wang,1,0,8.216850757598877
+sudoku-0357,25,SAT,Dynamic largest individual sum,1,0,8.30341362953186
+sudoku-0358,25,SAT,Random,20,3,9.626235723495483
+sudoku-0358,25,SAT,Two-Sided Jeroslow-Wang,15,4,9.37513256072998
+sudoku-0358,25,SAT,Dynamic largest individual sum,99,69,12.098395824432373
+sudoku-0359,25,SAT,Random,12,0,9.31901478767395
+sudoku-0359,25,SAT,Two-Sided Jeroslow-Wang,10,0,9.043437957763672
+sudoku-0359,25,SAT,Dynamic largest individual sum,252,212,17.428251028060913
+sudoku-0360,25,SAT,Random,14,1,9.25195026397705
+sudoku-0360,25,SAT,Two-Sided Jeroslow-Wang,15,4,9.345630884170532
+sudoku-0360,25,SAT,Dynamic largest individual sum,111,79,13.501196384429932
+sudoku-0361,25,SAT,Random,7,0,8.854896545410156
+sudoku-0361,25,SAT,Two-Sided Jeroslow-Wang,5,1,8.786118268966675
+sudoku-0361,25,SAT,Dynamic largest individual sum,579,526,34.363500356674194
+sudoku-0362,25,SAT,Random,10,0,8.947875261306763
+sudoku-0362,25,SAT,Two-Sided Jeroslow-Wang,6,0,8.814251184463501
+sudoku-0362,25,SAT,Dynamic largest individual sum,125,58,14.170044422149658
+sudoku-0363,25,SAT,Random,8,0,8.53132152557373
+sudoku-0363,25,SAT,Two-Sided Jeroslow-Wang,2,0,8.49054503440857
+sudoku-0363,25,SAT,Dynamic largest individual sum,74,31,10.25042200088501
+sudoku-0364,25,SAT,Random,20,3,10.079038381576538
+sudoku-0364,25,SAT,Two-Sided Jeroslow-Wang,15,2,9.37615180015564
+sudoku-0364,25,SAT,Dynamic largest individual sum,555,510,35.57873797416687
+sudoku-0365,25,SAT,Random,1,0,8.273090600967407
+sudoku-0365,25,SAT,Two-Sided Jeroslow-Wang,2,0,8.098243474960327
+sudoku-0365,25,SAT,Dynamic largest individual sum,4,0,8.189332962036133
+sudoku-0366,25,SAT,Random,36,15,12.32945203781128
+sudoku-0366,25,SAT,Two-Sided Jeroslow-Wang,8,0,9.106459379196167
+sudoku-0366,25,SAT,Dynamic largest individual sum,113,47,13.167451620101929
+sudoku-0367,25,SAT,Random,2,0,8.846745252609253
+sudoku-0367,25,SAT,Two-Sided Jeroslow-Wang,6,0,9.069934844970703
+sudoku-0367,25,SAT,Dynamic largest individual sum,428,382,30.699844360351562
+sudoku-0368,25,SAT,Random,2,0,8.29338026046753
+sudoku-0368,25,SAT,Two-Sided Jeroslow-Wang,6,0,8.355930089950562
+sudoku-0368,25,SAT,Dynamic largest individual sum,97,72,10.547781229019165
+sudoku-0369,25,SAT,Random,11,3,8.931574583053589
+sudoku-0369,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.628003358840942
+sudoku-0369,25,SAT,Dynamic largest individual sum,74,51,10.288495063781738
+sudoku-0370,25,SAT,Random,7,1,9.2075514793396
+sudoku-0370,25,SAT,Two-Sided Jeroslow-Wang,12,4,9.718394994735718
+sudoku-0370,25,SAT,Dynamic largest individual sum,88,46,12.931912183761597
+sudoku-0371,25,SAT,Random,2,0,8.590599536895752
+sudoku-0371,25,SAT,Two-Sided Jeroslow-Wang,2,0,8.500008821487427
+sudoku-0371,25,SAT,Dynamic largest individual sum,13,7,8.682621717453003
+sudoku-0372,25,SAT,Random,7,0,8.676292896270752
+sudoku-0372,25,SAT,Two-Sided Jeroslow-Wang,7,1,8.77122449874878
+sudoku-0372,25,SAT,Dynamic largest individual sum,87,39,11.073771715164185
+sudoku-0373,25,SAT,Random,8,1,9.392367124557495
+sudoku-0373,25,SAT,Two-Sided Jeroslow-Wang,10,1,9.720898628234863
+sudoku-0373,25,SAT,Dynamic largest individual sum,397,359,28.884763717651367
+sudoku-0374,25,SAT,Random,8,2,8.668673753738403
+sudoku-0374,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.55857229232788
+sudoku-0374,25,SAT,Dynamic largest individual sum,51,17,9.367248773574829
+sudoku-0375,25,SAT,Random,12,0,9.234019041061401
+sudoku-0375,25,SAT,Two-Sided Jeroslow-Wang,7,0,8.85280179977417
+sudoku-0375,25,SAT,Dynamic largest individual sum,462,422,25.55626392364502
+sudoku-0376,25,SAT,Random,21,9,10.118056774139404
+sudoku-0376,25,SAT,Two-Sided Jeroslow-Wang,6,0,8.828188419342041
+sudoku-0376,25,SAT,Dynamic largest individual sum,120,93,12.85943865776062
+sudoku-0377,25,SAT,Random,6,0,8.728201627731323
+sudoku-0377,25,SAT,Two-Sided Jeroslow-Wang,3,0,8.738219976425171
+sudoku-0377,25,SAT,Dynamic largest individual sum,144,120,11.594066858291626
+sudoku-0378,25,SAT,Random,12,0,9.39316463470459
+sudoku-0378,25,SAT,Two-Sided Jeroslow-Wang,8,0,9.067607641220093
+sudoku-0378,25,SAT,Dynamic largest individual sum,988,957,48.2178955078125
+sudoku-0379,25,SAT,Random,22,2,10.347769737243652
+sudoku-0379,25,SAT,Two-Sided Jeroslow-Wang,7,0,8.786231279373169
+sudoku-0379,25,SAT,Dynamic largest individual sum,357,310,22.791017055511475
+sudoku-0380,25,SAT,Random,35,23,10.566638469696045
+sudoku-0380,25,SAT,Two-Sided Jeroslow-Wang,5,0,9.094329118728638
+sudoku-0380,25,SAT,Dynamic largest individual sum,115,61,12.408921480178833
+sudoku-0381,25,SAT,Random,1,0,8.325368881225586
+sudoku-0381,25,SAT,Two-Sided Jeroslow-Wang,1,0,8.461003065109253
+sudoku-0381,25,SAT,Dynamic largest individual sum,2,0,8.495505571365356
+sudoku-0382,25,SAT,Random,13,3,8.981815338134766
+sudoku-0382,25,SAT,Two-Sided Jeroslow-Wang,8,1,8.390953540802002
+sudoku-0382,25,SAT,Dynamic largest individual sum,70,44,10.005521774291992
+sudoku-0383,25,SAT,Random,25,2,10.234868288040161
+sudoku-0383,25,SAT,Two-Sided Jeroslow-Wang,9,1,9.218561172485352
+sudoku-0383,25,SAT,Dynamic largest individual sum,798,766,41.272714376449585
+sudoku-0384,25,SAT,Random,8,0,8.840472936630249
+sudoku-0384,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.72620964050293
+sudoku-0384,25,SAT,Dynamic largest individual sum,103,59,12.738064289093018
+sudoku-0385,25,SAT,Random,14,0,9.727723360061646
+sudoku-0385,25,SAT,Two-Sided Jeroslow-Wang,3,1,8.888786554336548
+sudoku-0385,25,SAT,Dynamic largest individual sum,498,452,31.48380184173584
+sudoku-0386,25,SAT,Random,11,1,9.131019353866577
+sudoku-0386,25,SAT,Two-Sided Jeroslow-Wang,11,1,9.345632553100586
+sudoku-0386,25,SAT,Dynamic largest individual sum,97,43,11.400429010391235
+sudoku-0387,25,SAT,Random,7,0,8.816120386123657
+sudoku-0387,25,SAT,Two-Sided Jeroslow-Wang,9,0,9.047420263290405
+sudoku-0387,25,SAT,Dynamic largest individual sum,448,406,21.289047718048096
+sudoku-0388,25,SAT,Random,5,0,8.617635488510132
+sudoku-0388,25,SAT,Two-Sided Jeroslow-Wang,4,0,8.183824062347412
+sudoku-0388,25,SAT,Dynamic largest individual sum,31,11,8.663740873336792
+sudoku-0389,25,SAT,Random,10,0,9.571422338485718
+sudoku-0389,25,SAT,Two-Sided Jeroslow-Wang,8,0,9.218559980392456
+sudoku-0389,25,SAT,Dynamic largest individual sum,111,63,13.557551622390747
+sudoku-0390,25,SAT,Random,12,1,10.438565254211426
+sudoku-0390,25,SAT,Two-Sided Jeroslow-Wang,17,5,9.764448642730713
+sudoku-0390,25,SAT,Dynamic largest individual sum,1052,1009,47.671133041381836
+sudoku-0391,25,SAT,Random,18,5,9.695393323898315
+sudoku-0391,25,SAT,Two-Sided Jeroslow-Wang,6,0,8.952378749847412
+sudoku-0391,25,SAT,Dynamic largest individual sum,152,109,13.447951555252075
+sudoku-0392,25,SAT,Random,15,0,10.546502113342285
+sudoku-0392,25,SAT,Two-Sided Jeroslow-Wang,13,1,9.964569330215454
+sudoku-0392,25,SAT,Dynamic largest individual sum,511,444,32.42599129676819
+sudoku-0393,25,SAT,Random,16,1,9.739567041397095
+sudoku-0393,25,SAT,Two-Sided Jeroslow-Wang,11,0,9.444722652435303
+sudoku-0393,25,SAT,Dynamic largest individual sum,318,256,23.092642307281494
+sudoku-0394,25,SAT,Random,7,0,8.759682416915894
+sudoku-0394,25,SAT,Two-Sided Jeroslow-Wang,1,0,8.584089756011963
+sudoku-0394,25,SAT,Dynamic largest individual sum,90,62,10.871108055114746
+sudoku-0395,25,SAT,Random,20,1,11.198088645935059
+sudoku-0395,25,SAT,Two-Sided Jeroslow-Wang,21,4,10.835187911987305
+sudoku-0395,25,SAT,Dynamic largest individual sum,778,736,43.692684173583984
+sudoku-0396,25,SAT,Random,11,0,9.293193340301514
+sudoku-0396,25,SAT,Two-Sided Jeroslow-Wang,9,0,9.417202234268188
+sudoku-0396,25,SAT,Dynamic largest individual sum,71,19,12.920732498168945
+sudoku-0397,25,SAT,Random,33,6,9.933449745178223
+sudoku-0397,25,SAT,Two-Sided Jeroslow-Wang,9,1,8.972386837005615
+sudoku-0397,25,SAT,Dynamic largest individual sum,117,79,12.026602506637573
+sudoku-0398,25,SAT,Random,14,2,9.764782190322876
+sudoku-0398,25,SAT,Two-Sided Jeroslow-Wang,12,0,9.55978274345398
+sudoku-0398,25,SAT,Dynamic largest individual sum,167,117,15.515432357788086
+sudoku-0399,25,SAT,Random,15,3,10.018086433410645
+sudoku-0399,25,SAT,Two-Sided Jeroslow-Wang,22,6,10.663543939590454
+sudoku-0399,25,SAT,Dynamic largest individual sum,181,115,17.400383949279785
+sudoku-0400,25,SAT,Random,4,0,8.225836038589478
+sudoku-0400,25,SAT,Two-Sided Jeroslow-Wang,5,0,8.479516744613647
+sudoku-0400,25,SAT,Dynamic largest individual sum,18,0,8.586680173873901
+sudoku-0401,25,SAT,Random,18,6,9.6311776638031
+sudoku-0401,25,SAT,Two-Sided Jeroslow-Wang,7,1,9.162002086639404
+sudoku-0401,25,SAT,Dynamic largest individual sum,320,299,18.379855394363403
+sudoku-0402,26,SAT,Random,3,0,8.839221000671387
+sudoku-0402,26,SAT,Two-Sided Jeroslow-Wang,5,3,8.65111756324768
+sudoku-0402,26,SAT,Dynamic largest individual sum,48,37,9.54295825958252
+sudoku-0403,26,SAT,Random,6,0,8.451731443405151
+sudoku-0403,26,SAT,Two-Sided Jeroslow-Wang,9,2,8.496330738067627
+sudoku-0403,26,SAT,Dynamic largest individual sum,107,64,11.477051973342896
+sudoku-0404,26,SAT,Random,1,0,8.556743621826172
+sudoku-0404,26,SAT,Two-Sided Jeroslow-Wang,5,1,8.750168800354004
+sudoku-0404,26,SAT,Dynamic largest individual sum,344,314,19.100173711776733
+sudoku-0405,26,SAT,Random,24,11,10.636030435562134
+sudoku-0405,26,SAT,Two-Sided Jeroslow-Wang,7,0,9.148091077804565
+sudoku-0405,26,SAT,Dynamic largest individual sum,165,123,15.73989725112915
+sudoku-0406,26,SAT,Random,5,0,8.720184564590454
+sudoku-0406,26,SAT,Two-Sided Jeroslow-Wang,6,0,8.723981142044067
+sudoku-0406,26,SAT,Dynamic largest individual sum,68,29,9.933127641677856
+sudoku-0407,26,SAT,Random,12,0,9.809194087982178
+sudoku-0407,26,SAT,Two-Sided Jeroslow-Wang,6,1,8.962217330932617
+sudoku-0407,26,SAT,Dynamic largest individual sum,579,548,32.6900269985199
+sudoku-0408,26,SAT,Random,11,0,9.063515901565552
+sudoku-0408,26,SAT,Two-Sided Jeroslow-Wang,8,1,8.967395305633545
+sudoku-0408,26,SAT,Dynamic largest individual sum,77,45,10.716092824935913
+sudoku-0409,26,SAT,Random,19,2,10.08551287651062
+sudoku-0409,26,SAT,Two-Sided Jeroslow-Wang,8,1,9.186969518661499
+sudoku-0409,26,SAT,Dynamic largest individual sum,290,250,18.191317081451416
+sudoku-0410,26,SAT,Random,6,1,8.603408575057983
+sudoku-0410,26,SAT,Two-Sided Jeroslow-Wang,3,0,8.448909521102905
+sudoku-0410,26,SAT,Dynamic largest individual sum,36,11,8.951130867004395
+sudoku-0411,26,SAT,Random,6,1,9.191020488739014
+sudoku-0411,26,SAT,Two-Sided Jeroslow-Wang,10,2,9.55129623413086
+sudoku-0411,26,SAT,Dynamic largest individual sum,114,61,12.979331254959106
+sudoku-0412,26,SAT,Random,10,1,9.097853183746338
+sudoku-0412,26,SAT,Two-Sided Jeroslow-Wang,4,1,8.84178113937378
+sudoku-0412,26,SAT,Dynamic largest individual sum,117,76,12.936628341674805
+sudoku-0413,26,SAT,Random,54,43,11.353960514068604
+sudoku-0413,26,SAT,Two-Sided Jeroslow-Wang,27,15,9.685206413269043
+sudoku-0413,26,SAT,Dynamic largest individual sum,102,63,12.435990333557129
+sudoku-0414,26,SAT,Random,13,0,9.543606281280518
+sudoku-0414,26,SAT,Two-Sided Jeroslow-Wang,6,0,9.252895832061768
+sudoku-0414,26,SAT,Dynamic largest individual sum,233,201,17.838315963745117
+sudoku-0415,26,SAT,Random,22,10,11.30850338935852
+sudoku-0415,26,SAT,Two-Sided Jeroslow-Wang,5,1,9.412019968032837
+sudoku-0415,26,SAT,Dynamic largest individual sum,499,489,27.118839263916016

@@ -1,6 +1,11 @@
-import numpy as np 
+#Need to add the pure literal thingy
 import random
+import time
 import copy
+import operator
+import glob
+import os
+import csv
 
 def read_dimac(file):
 	f=open(file,"r")
@@ -40,6 +45,7 @@ def add_puzzle(file, cnf):
 					cnf[-1].append(lit)
 	assert len(cnf[-1]) == 0
 	cnf.pop()
+	return len(f1)
 
 def check_unit_clause(cnf,dict_values):
 	for clause in cnf:
@@ -64,8 +70,8 @@ def check_tautology(cnf):
 	return cnf
 
 def remove_true_clauses(cnf,dict_values):
-	cnf2=copy.deepcopy(cnf)
-	for clause in cnf2:
+	#cnf2=copy.deepcopy(cnf)
+	for clause in [*cnf]:
 		rem_clause=False
 		for i in clause:
 			if i in dict_values and dict_values[i]==1:
@@ -84,63 +90,8 @@ def remove_false_elements(cnf,dict_values):
 				cnf[clause_index].remove(i)
 	return cnf
 
-def check_if_backtracking_needed(cnf):
-	for clause in cnf:
-		if len(clause)==0:
-			print('BACKTRACK!')
-			return True
-		else:
-			return False
 
-def correct_value_counter(dict_values):
-	count=0
-	for key in dict_values.keys():
-		if key > 0 and dict_values[key]==1:
-			count+=1
-	return count
-
-
-def random_fill(cnf, dict_values,list_random_filled):
-	clause=cnf[random.randint(0,len(cnf)-1)]
-	element = clause[random.randint(0,len(clause)-1)]
-	if element in dict_values:
-		print("element already in dict")
-	elif element not in dict_values:
-		dict_values[element]=1
-		dict_values[-element]=0
-		list_random_filled.append(element)
-	return(dict_values, list_random_filled)
-
-def dpll(cnf, dict_values,list_random_filled):
-	print(list_random_filled)
-	cnf_copy=copy.deepcopy(cnf)
-	cnf_copy2=copy.deepcopy(cnf)
-	dict_copy=copy.deepcopy(dict_values)
-	list_fill_copy=copy.deepcopy(list_random_filled)
-	dict_copy, list_random_filled=random_fill(cnf_copy, dict_copy,list_fill_copy)
-	cnf_copy, dict_copy=simplefy(cnf_copy, dict_copy)
-	if cnf_copy==[]:
-		return cnf_copy, dict_copy, list_random_filled
-	elif check_if_backtracking_needed(cnf_copy):
-		last_element=list_random_filled[-1]
-		list_random_filled.pop()
-		list_random_filled.append(-1*last_element)
-		print(list_random_filled)
-		dict_copy[list_fill_copy[-1]]=0
-		dict_copy[-list_fill_copy[-1]]=1
-		cnf_copy2, dict_copy=simplefy(cnf_copy2, dict_copy)
-		if cnf_copy2==[]:
-			return cnf_copy2, dict_copy, list_random_filled
-		elif check_if_backtracking_needed(cnf_copy2):
-			list_random_filled.pop()
-			return dpll(cnf, dict_values,list_random_filled)
-
-		else:
-			return dpll(cnf_copy2, dict_copy,list_random_filled)
-	else:
-		return dpll(cnf_copy, dict_copy,list_random_filled)
-
-def simplefy(cnf, dict_values):
+def simplefy(cnf, dict_values): #THIS NEEDS IMPROVEMENT
 	count=0
 	previous_count=None
 	while count != previous_count:
@@ -151,25 +102,250 @@ def simplefy(cnf, dict_values):
 		count=len(cnf)
 	return cnf, dict_values
 
+def random_selection(list_of_lists):
+	clause=list_of_lists[random.randint(0,len(list_of_lists)-1)]
+	element = clause[random.randint(0,len(clause)-1)]
+	return element
 
+def dynamic_largest_individual_sum(list_of_lists):
+	dict_of_values=dict()
+	for clause in list_of_lists:
+		for element in clause:
+			if element in dict_of_values:
+				dict_of_values[element]+=1
+			else:
+				dict_of_values[element]=1
+	return max(dict_of_values.items(), key=operator.itemgetter(1))[0]  #https://stackoverflow.com/questions/268272/getting-key-with-maximum-value-in-dictionary
 
-if __name__== "__main__":
+def two_sided_jeroslow_wang(list_of_lists):
+	dict_of_values=dict()
+	dict_of_polarised_values=dict()
+	for clause in list_of_lists:
+		for element in clause:
+			if element in dict_of_values:
+				dict_of_values[abs(element)]+=2**-abs(len(clause))
+				dict_of_polarised_values[element]+=2**-abs(len(clause))
+			else:
+				dict_of_values[abs(element)]=2**-abs(len(clause))
+				dict_of_polarised_values[element]=2**-abs(len(clause))
+	positive=max(dict_of_values.items(), key=operator.itemgetter(1))[0]  #https://stackoverflow.com/questions/268272/getting-key-with-maximum-value-in-dictionary
+	negative=-positive
+	if negative not in dict_of_polarised_values:
+		return positive
+	elif positive not in dict_of_polarised_values:
+		return negative
+	elif dict_of_polarised_values[positive] >= dict_of_polarised_values[negative]:
+		return positive
+	else:
+		return negative
+
+def dp_algorithm_jw(list_of_lists, dict_of_answers, counter, backtrack_counter):
+	#https://gist.github.com/davefernig/e670bda722d558817f2ba0e90ebce66f
+	if list_of_lists == []:
+		return True, dict_of_answers, counter, backtrack_counter
+	elif [] in list_of_lists:
+		return False, None, counter, backtrack_counter
+
+	#new_element=random_selection(list_of_lists) 
+	new_element=two_sided_jeroslow_wang(list_of_lists)
+	#new_element=dynamic_largest_individual_sum(list_of_lists) #should give a split_counter of 226 in the example?
+	counter+=1
+	#print(new_element)
+	new_lol=copy.deepcopy(list_of_lists)
+	new_doa=copy.deepcopy(dict_of_answers)
+	new_doa[new_element]=1
+	new_doa[-new_element]=0
+	new_lol, new_doa=simplefy(new_lol,new_doa)
+
+	satifible, new_dict, counter, backtrack_counter=dp_algorithm_jw(new_lol, new_doa,counter, backtrack_counter)
+	if satifible:
+		return satifible, new_dict, counter, backtrack_counter
+
+	new_lol=copy.deepcopy(list_of_lists)
+	new_doa=copy.deepcopy(dict_of_answers)
+	new_doa[new_element]=0
+	new_doa[-new_element]=1
+	new_lol, new_doa=simplefy(new_lol,new_doa)
+	backtrack_counter+=1
+	counter+=1
+	satifible, new_dict, counter, backtrack_counter=dp_algorithm_jw(new_lol,new_doa, counter, backtrack_counter)
+	if satifible:
+		return satifible, new_dict, counter, backtrack_counter
+	return False, None, counter, backtrack_counter+1
+
+def dp_algorithm_ran(list_of_lists, dict_of_answers, counter, backtrack_counter):
+	#https://gist.github.com/davefernig/e670bda722d558817f2ba0e90ebce66f
+	if list_of_lists == []:
+		return True, dict_of_answers, counter, backtrack_counter
+	elif [] in list_of_lists:
+		return False, None, counter, backtrack_counter
+
+	new_element=random_selection(list_of_lists) 
+	#new_element=two_sided_jeroslow_wang(list_of_lists)
+	#new_element=dynamic_largest_individual_sum(list_of_lists) #should give a split_counter of 226 in the example?
+	counter+=1
+	#print(new_element)
+	new_lol=copy.deepcopy(list_of_lists)
+	new_doa=copy.deepcopy(dict_of_answers)
+	new_doa[new_element]=1
+	new_doa[-new_element]=0
+	new_lol, new_doa=simplefy(new_lol,new_doa)
+
+	satifible, new_dict, counter, backtrack_counter=dp_algorithm_ran(new_lol, new_doa,counter, backtrack_counter)
+	if satifible:
+		return satifible, new_dict, counter, backtrack_counter
+
+	new_lol=copy.deepcopy(list_of_lists)
+	new_doa=copy.deepcopy(dict_of_answers)
+	new_doa[new_element]=0
+	new_doa[-new_element]=1
+	new_lol, new_doa=simplefy(new_lol,new_doa)
+	backtrack_counter+=1
+	counter+=1
+	
+	satifible, new_dict, counter, backtrack_counter=dp_algorithm_ran(new_lol,new_doa, counter, backtrack_counter)
+	if satifible:
+		return satifible, new_dict, counter, backtrack_counter
+	return False, None, counter, backtrack_counter+1
+
+def dp_algorithm_dlis(list_of_lists, dict_of_answers, counter, backtrack_counter):
+	#https://gist.github.com/davefernig/e670bda722d558817f2ba0e90ebce66f
+	if list_of_lists == []:
+		return True, dict_of_answers, counter, backtrack_counter
+	elif [] in list_of_lists:
+		return False, None, counter, backtrack_counter
+	print(counter)
+
+	#new_element=random_selection(list_of_lists) 
+	#new_element=two_sided_jeroslow_wang(list_of_lists)
+	new_element=dynamic_largest_individual_sum(list_of_lists) #should give a split_counter of 226 in the example?
+	counter+=1
+	#print(new_element)
+	new_lol=copy.deepcopy(list_of_lists)
+	new_doa=copy.deepcopy(dict_of_answers)
+	new_doa[new_element]=1
+	new_doa[-new_element]=0
+	new_lol, new_doa=simplefy(new_lol,new_doa)
+
+	satifible, new_dict, counter, backtrack_counter=dp_algorithm_dlis(new_lol, new_doa,counter, backtrack_counter)
+	if satifible:
+		return satifible, new_dict, counter, backtrack_counter
+
+	new_lol=copy.deepcopy(list_of_lists)
+	new_doa=copy.deepcopy(dict_of_answers)
+	new_doa[new_element]=0
+	new_doa[-new_element]=1
+	new_lol, new_doa=simplefy(new_lol,new_doa)
+	backtrack_counter+=1
+	counter+=1
+	
+	satifible, new_dict, counter, backtrack_counter=dp_algorithm_dlis(new_lol,new_doa, counter, backtrack_counter)
+	if satifible:
+		return satifible, new_dict, counter, backtrack_counter
+	return False, None, counter, backtrack_counter+1
+
+def do_jw(pathname):
+	start=time.time()
+	backtrack=0
+	counter=0
 	answer=[]
 	dict_values=dict()
 	list_random_filled=[]
 	cnf, maxvar=read_dimac("sudoku-rules.txt")
-	add_puzzle("sudoku-example.txt", cnf)
+	num_given=add_puzzle(pathname, cnf)
+	base=os.path.basename(pathname)
+	puzzle=base.strip('.txt')
 	cnf=check_tautology(cnf)
-	print(len(cnf))
 	cnf, dict_values=simplefy(cnf,dict_values)
-	if check_if_backtracking_needed(cnf):
-		print('UNSAT')
-	cnf, dict_values, list_random_filled=dpll(cnf, dict_values, list_random_filled)
-	print(list_random_filled)
-	print(cnf)
-	print(dict_values)
-	for key in dict_values.keys():
-		if key > 0 and dict_values[key]==1:
-			answer.append(key)
-	answer.sort()
-	print(answer)
+	if [] in cnf:
+		satifible=false
+	else:
+		satifible, dict_values, counter, backtrack=dp_algorithm_jw(cnf,dict_values, counter,backtrack)
+	if satifible:
+		#print ('SAT')
+		for key in dict_values.keys():
+			if key > 0 and dict_values[key]==1:
+				answer.append(key)
+		answer.sort()
+		#print(answer)
+		#print (counter)
+		#print(backtrack)
+		return puzzle, num_given, 'SAT', 'Two-Sided Jeroslow-Wang', counter, backtrack, time.time()-start
+	else:
+		#print ('UNSAT')
+		return puzzle, num_given, 'UNSAT','Two-Sided Jeroslow-Wang', None, None, time.time()-start
+
+def do_dlis(pathname):
+	start=time.time()
+	backtrack=0
+	counter=0
+	answer=[]
+	dict_values=dict()
+	list_random_filled=[]
+	cnf, maxvar=read_dimac("sudoku-rules.txt")
+	num_given=add_puzzle(pathname, cnf)
+	base=os.path.basename(pathname)
+	puzzle=base.strip('.txt')
+	cnf=check_tautology(cnf)
+	cnf, dict_values=simplefy(cnf,dict_values)
+	if [] in cnf:
+		satifible=false
+	else:
+		satifible, dict_values, counter, backtrack=dp_algorithm_dlis(cnf,dict_values, counter,backtrack)
+	if satifible:
+		#print ('SAT')
+		for key in dict_values.keys():
+			if key > 0 and dict_values[key]==1:
+				answer.append(key)
+		answer.sort()
+		#print(answer)
+		#print (counter)
+		#print(backtrack)
+		return puzzle, num_given, 'SAT', 'Dynamic largest individual sum', counter, backtrack, time.time()-start
+	else:
+		#print ('UNSAT')
+		return puzzle, num_given, 'UNSAT','Dynamic largest individual sum', None, None, time.time()-start
+
+def do_ran(pathname):
+	start=time.time()
+	backtrack=0
+	counter=0
+	answer=[]
+	dict_values=dict()
+	list_random_filled=[]
+	cnf, maxvar=read_dimac("sudoku-rules.txt")
+	num_given=add_puzzle(pathname, cnf)
+	base=os.path.basename(pathname)
+	puzzle=base.strip('.txt')
+	cnf=check_tautology(cnf)
+	cnf, dict_values=simplefy(cnf,dict_values)
+	if [] in cnf:
+		satifible=false
+	else:
+		satifible, dict_values, counter, backtrack=dp_algorithm_ran(cnf,dict_values, counter,backtrack)
+	if satifible:
+		#print ('SAT')
+		for key in dict_values.keys():
+			if key > 0 and dict_values[key]==1:
+				answer.append(key)
+		answer.sort()
+		#print(answer)
+		#print (counter)
+		#print(backtrack)
+		return puzzle, num_given, 'SAT', 'Random', counter, backtrack, time.time()-start
+	else:
+		#print ('UNSAT')
+		return puzzle, num_given, 'UNSAT','Random', None, None, time.time()-start
+
+if __name__== "__main__":
+	print(do_dlis('sudoku-example.txt'))
+	for filename in glob.glob(f"sudokus/*.txt"):
+		base=os.path.basename(filename)
+		puzzle=base.strip('.txt')
+		lines=[do_ran(filename), do_jw(filename), do_dlis(filename)]
+		print(lines)
+		with open('output.csv', 'a') as writeFile:
+			writer = csv.writer(writeFile)
+			writer.writerows(lines)
+
+		
